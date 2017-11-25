@@ -1,264 +1,774 @@
 ******************************************************
+Name:	Tippi Hedren
+Gender:	F
+Shows:	Count:1|fall-1995-couture@mugler
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
 Name:	Karen Mulder
 Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
+Shows:	Count:9|fall-1994-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,fall-1992-ready-to-wear@versace,spring-1994-ready-to-wear@chanel,spring-1993-ready-to-wear@prada,spring-1993-ready-to-wear@anna-sui,fall-1995-couture@mugler,spring-1992-ready-to-wear@prada,fall-1995-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,spring-1992-ready-to-wear@mugler
+Agency:	Count:0
+Photos:	Count:3|Condé Nast Archive,Condé  Nast Archive,Courtesy of Prada
 ******************************************************
-Name:	Linda Evangelista
+Name:	Carol Wilson
 Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
+Shows:	Count:1|spring-1995-ready-to-wear@jean-paul-gaultier
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
 ******************************************************
-Name:	Tracee Ellis Ross
-Gender:	
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
-******************************************************
-Name:	Marie Sophie Wilson-Carr
+Name:	Laetitia Casta
 Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
+Shows:	Count:1|spring-1994-ready-to-wear@jean-paul-gaultier
+Agency:	Count:1|IMG London
+Photos:	Count:1|Condé Nast Archive
 ******************************************************
-Name:	Ludmila Isaeva Malahova
+Name:	Patty Hearst
 Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
-******************************************************
-Name:	Eva Herzigova
-Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
-******************************************************
-Name:	Jeff Stryker
-Gender:	M
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
-******************************************************
-Name:	Rachel Williams
-Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
+Shows:	Count:1|fall-1995-couture@mugler
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
 ******************************************************
 Name:	Claudia Mason
 Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
+Shows:	Count:6|spring-1993-ready-to-wear@john-galliano,spring-1993-ready-to-wear@anna-sui,spring-1993-ready-to-wear@prada,spring-1994-ready-to-wear@chanel,spring-1992-ready-to-wear@prada,spring-1995-ready-to-wear@jean-paul-gaultier
+Agency:	Count:0
+Photos:	Count:3|Condé Nast Archive,Courtesy of Prada,Condé  Nast Archive
+******************************************************
+Name:	Brandi Quinones
+Gender:	F
+Shows:	Count:3|spring-1994-ready-to-wear@chanel,spring-1995-ready-to-wear@prada,spring-1994-ready-to-wear@jean-paul-gaultier
+Agency:	Count:0
 Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
 ******************************************************
-Name:	Kirsten Owen
-Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
-******************************************************
-Name:	Carla Bruni
-Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
-******************************************************
-Name:	Naomi Campbell
-Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
+Name:	Tyra Banks
+Gender:	
+Shows:	Count:2|spring-1995-ready-to-wear@issey-miyake,spring-1993-ready-to-wear@perry-ellis
+Agency:	Count:0
+Photos:	Count:2|Condé Nast Archive,Condé  Nast Archive
 ******************************************************
 Name:	Elaine Irwin
 Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
+Shows:	Count:2|spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
+Agency:	Count:0
 Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
 ******************************************************
-Name:	Anna Pawlowski
-Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
-******************************************************
-Name:	Gisele Zelauy
-Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
-******************************************************
-Name:	Niki Taylor
-Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
-******************************************************
-Name:	Nadja Auermann
-Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
-******************************************************
-Name:	Shalom Harlow
-Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
-******************************************************
-Name:	Tatjana Patitz
-Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
-******************************************************
-Name:	Connie Fleming
-Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
-******************************************************
-Name:	Diane Brill
+Name:	Kate Moss
 Gender:	
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
+Shows:	Count:22|fall-1995-ready-to-wear@calvin-klein-collection,fall-1995-ready-to-wear@gucci,fall-1994-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@john-galliano,spring-1994-ready-to-wear@anna-sui,fall-1993-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,spring-1995-ready-to-wear@prada,spring-1993-ready-to-wear@maison-martin-margiela,spring-1994-ready-to-wear@prada,spring-1994-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@calvin-klein-collection,spring-1994-ready-to-wear@chanel,spring-1995-ready-to-wear@calvin-klein-collection,spring-1993-ready-to-wear@perry-ellis,fall-1995-couture@mugler,fall-1995-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,fall-1994-ready-to-wear@john-galliano,fall-1994-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,spring-1993-ready-to-wear@john-galliano,spring-1993-ready-to-wear@prada,spring-1993-ready-to-wear@anna-sui,fall-1993-ready-to-wear@comme-des-garcons
+Agency:	Count:0
+Photos:	Count:4|Condé Nast Archive,Courtesy of Prada,Condé  Nast Archive,Guy Marineau
+******************************************************
+Name:	Tracee Ellis Ross
+Gender:	
+Shows:	Count:1|spring-1992-ready-to-wear@mugler
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
 ******************************************************
 Name:	Thierry Mugler
 Gender:	M
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
+Shows:	Count:1|spring-1992-ready-to-wear@mugler
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
 ******************************************************
-Name:	Helena Barquilla
+Name:	Connie Fleming
 Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
+Shows:	Count:1|spring-1992-ready-to-wear@mugler
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
 ******************************************************
-Name:	Claudia Huidobro
+Name:	Sky Nellor
+Gender:	
+Shows:	Count:1|spring-1993-ready-to-wear@christian-francis-roth
+Agency:	Count:0
+Photos:	Count:0
+******************************************************
+Name:	Honor Fraser
 Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
+Shows:	Count:3|spring-1994-ready-to-wear@prada,spring-1994-ready-to-wear@anna-sui,fall-1995-ready-to-wear@andreas-kronthaler-for-vivienne-westwood
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
 ******************************************************
-Name:	Shana Zadrick
+Name:	Claudia Schiffer
+Gender:	
+Shows:	Count:3|fall-1995-couture@mugler,spring-1994-ready-to-wear@chanel,fall-1992-ready-to-wear@versace
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Cindy Crawford
+Gender:	
+Shows:	Count:1|spring-1994-ready-to-wear@chanel
+Agency:	Count:0
+Photos:	Count:0
+******************************************************
+Name:	Carmen Dell'Orefice
+Gender:	
+Shows:	Count:1|fall-1995-couture@mugler
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Stella Tennant
 Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
-******************************************************
-Name:	Emma Wiklund
-Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
-******************************************************
-Name:	Lypsinka
-Gender:	M
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
+Shows:	Count:10|fall-1995-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@anna-sui,fall-1995-ready-to-wear@calvin-klein-collection,spring-1995-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@chanel,fall-1994-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@prada,fall-1994-ready-to-wear@helmut-lang,spring-1995-ready-to-wear@jean-paul-gaultier,spring-1994-ready-to-wear@jean-paul-gaultier
+Agency:	Count:2|VIVA,DNA
+Photos:	Count:3|Courtesy of Anna Sui,Condé Nast Archive,Courtesy of Prada
 ******************************************************
 Name:	Ivana Trump
 Gender:	
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
+Shows:	Count:1|spring-1992-ready-to-wear@mugler
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Susie Bick
+Gender:	
+Shows:	Count:1|fall-1993-ready-to-wear@andreas-kronthaler-for-vivienne-westwood
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
 ******************************************************
 Name:	Beverly Peele
 Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
+Shows:	Count:6|fall-1992-ready-to-wear@versace,spring-1993-ready-to-wear@prada,spring-1992-ready-to-wear@comme-des-garcons,fall-1992-ready-to-wear@comme-des-garcons,spring-1993-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@mugler
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
 ******************************************************
-Name:	Marpessa Hennink
+Name:	Angelika Kallio
+Gender:	F
+Shows:	Count:3|spring-1993-ready-to-wear@perry-ellis,spring-1993-ready-to-wear@anna-sui,fall-1992-ready-to-wear@versace
+Agency:	Count:0
+Photos:	Count:2|Condé Nast Archive,Condé  Nast Archive
+******************************************************
+Name:	Rei Kawakubo
 Gender:	
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
-******************************************************
-Name:	Emma Warg
-Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
-******************************************************
-Name:	Daniela Pestova
-Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
-******************************************************
-Name:	Kristen McMenamy
-Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
+Shows:	Count:1|spring-1993-ready-to-wear@comme-des-garcons
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
 ******************************************************
 Name:	Helena Christensen
 Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
+Shows:	Count:13|fall-1994-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,spring-1993-ready-to-wear@john-galliano,fall-1992-ready-to-wear@versace,spring-1994-ready-to-wear@chanel,spring-1993-ready-to-wear@prada,spring-1993-ready-to-wear@anna-sui,fall-1995-ready-to-wear@gucci,spring-1993-ready-to-wear@perry-ellis,spring-1995-ready-to-wear@john-galliano,spring-1992-ready-to-wear@prada,fall-1995-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,fall-1994-ready-to-wear@john-galliano,spring-1992-ready-to-wear@mugler
+Agency:	Count:2|MARILYN,ONE
+Photos:	Count:4|Condé Nast Archive,Condé  Nast Archive,Courtesy of Prada,Guy Marineau
 ******************************************************
 Name:	Yasmeen Ghauri
 Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
+Shows:	Count:11|fall-1994-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,spring-1993-ready-to-wear@john-galliano,fall-1992-ready-to-wear@versace,spring-1993-ready-to-wear@prada,spring-1994-ready-to-wear@chanel,spring-1995-ready-to-wear@john-galliano,spring-1992-ready-to-wear@prada,fall-1992-ready-to-wear@comme-des-garcons,spring-1993-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@jean-paul-gaultier,spring-1992-ready-to-wear@mugler
+Agency:	Count:0
 Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
 ******************************************************
-Name:	Anneliese Seubert
+Name:	Anna Klevhag
 Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
+Shows:	Count:1|fall-1995-ready-to-wear@calvin-klein-collection
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
 ******************************************************
-Name:	Heather Stewart-Whyte
-Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
-******************************************************
-Name:	Meghan Douglas
-Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
-******************************************************
-Name:	Cordula Reyer
-Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
-******************************************************
-Name:	Christy Turlington Burns
+Name:	Anh Duong
 Gender:	
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
+Shows:	Count:1|spring-1995-ready-to-wear@john-galliano
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
 ******************************************************
-Name:	Nadège du Bospertus
-Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
-******************************************************
-Name:	Leslie Navajes
-Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
+Name:	Sandra Bernhard
+Gender:	
+Shows:	Count:1|fall-1992-ready-to-wear@comme-des-garcons
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
 ******************************************************
 Name:	Veronica Webb
 Gender:	
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
-Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
+Shows:	Count:3|fall-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@comme-des-garcons,spring-1993-ready-to-wear@comme-des-garcons
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Lucie de la Falaise
+Gender:	F
+Shows:	Count:5|spring-1994-ready-to-wear@calvin-klein-collection,spring-1993-ready-to-wear@anna-sui,spring-1994-ready-to-wear@anna-sui,spring-1994-ready-to-wear@comme-des-garcons,fall-1994-ready-to-wear@john-galliano
+Agency:	Count:0
+Photos:	Count:3|Condé Nast Archive,Condé  Nast Archive,Guy Marineau
 ******************************************************
 Name:	Cecilia Chancellor
 Gender:	F
-Shows:	Count:3|spring-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@prada,spring-1992-ready-to-wear@mugler
-Agency:	Count:13|OUI,DNA,Trump,IMG London,D'MANAGEMENT,Marilyn,STORM,The Lions,ONE,ELITE,MARILYN,Select,TESS
+Shows:	Count:10|fall-1995-ready-to-wear@comme-des-garcons,spring-1993-ready-to-wear@maison-martin-margiela,spring-1994-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@chanel,fall-1994-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@comme-des-garcons,fall-1994-ready-to-wear@helmut-lang,fall-1992-ready-to-wear@comme-des-garcons,spring-1993-ready-to-wear@comme-des-garcons
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Elle Macpherson
+Gender:	
+Shows:	Count:1|fall-1995-couture@mugler
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Stella Ellis
+Gender:	F
+Shows:	Count:1|fall-1995-couture@mugler
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Linda Evangelista
+Gender:	F
+Shows:	Count:18|fall-1994-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,fall-1995-ready-to-wear@comme-des-garcons,fall-1994-ready-to-wear@helmut-lang,fall-1992-ready-to-wear@versace,fall-1995-ready-to-wear@calvin-klein-collection,fall-1993-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,spring-1995-ready-to-wear@comme-des-garcons,spring-1993-ready-to-wear@prada,fall-1994-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@john-galliano,spring-1992-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@prada,spring-1992-ready-to-wear@prada,fall-1995-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,fall-1995-couture@mugler,spring-1994-ready-to-wear@anna-sui,fall-1992-ready-to-wear@comme-des-garcons,fall-1994-ready-to-wear@john-galliano
+Agency:	Count:1|DNA
+Photos:	Count:4|Courtesy of Anna Sui,Condé Nast Archive,Courtesy of Prada,Guy Marineau
+******************************************************
+Name:	Heather Stewart-Whyte
+Gender:	F
+Shows:	Count:1|spring-1992-ready-to-wear@mugler
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Carolyn Murphy
+Gender:	F
+Shows:	Count:2|spring-1995-ready-to-wear@comme-des-garcons,fall-1995-ready-to-wear@calvin-klein-collection
+Agency:	Count:2|IMG New York,IMG London
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Suzanne von Aichinger
+Gender:	
+Shows:	Count:1|spring-1993-ready-to-wear@maison-martin-margiela
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Christy Turlington Burns
+Gender:	
+Shows:	Count:14|fall-1994-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,spring-1994-ready-to-wear@prada,spring-1994-ready-to-wear@anna-sui,fall-1992-ready-to-wear@versace,fall-1993-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,spring-1994-ready-to-wear@chanel,spring-1993-ready-to-wear@perry-ellis,fall-1994-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@comme-des-garcons,fall-1994-ready-to-wear@helmut-lang,fall-1992-ready-to-wear@comme-des-garcons,spring-1993-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@jean-paul-gaultier,fall-1994-ready-to-wear@john-galliano
+Agency:	Count:0
+Photos:	Count:4|Courtesy of Anna Sui,Condé Nast Archive,Condé  Nast Archive,Guy Marineau
+******************************************************
+Name:	Eva Herzigova
+Gender:	F
+Shows:	Count:4|fall-1994-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,fall-1995-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,fall-1995-couture@mugler,spring-1992-ready-to-wear@mugler
+Agency:	Count:2|STORM,ONE
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Jade Parfitt
+Gender:	F
+Shows:	Count:3|fall-1995-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@prada,fall-1995-ready-to-wear@calvin-klein-collection
+Agency:	Count:1|MARILYN
 Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
+******************************************************
+Name:	Simonetta Gianfelici
+Gender:	F
+Shows:	Count:5|fall-1994-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,fall-1993-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,fall-1995-ready-to-wear@comme-des-garcons,fall-1995-couture@mugler,fall-1995-ready-to-wear@andreas-kronthaler-for-vivienne-westwood
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Kirsten Owen
+Gender:	F
+Shows:	Count:8|spring-1994-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@calvin-klein-collection,fall-1994-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@prada,fall-1994-ready-to-wear@helmut-lang,spring-1994-ready-to-wear@jean-paul-gaultier
+Agency:	Count:3|OUI,Select,ONE
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Victoire de Castellane
+Gender:	
+Shows:	Count:1|spring-1994-ready-to-wear@chanel
+Agency:	Count:0
+Photos:	Count:0
+******************************************************
+Name:	Naomi Campbell
+Gender:	F
+Shows:	Count:17|fall-1994-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,spring-1994-ready-to-wear@anna-sui,spring-1994-ready-to-wear@chanel,fall-1992-ready-to-wear@versace,fall-1993-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,spring-1993-ready-to-wear@prada,spring-1993-ready-to-wear@anna-sui,spring-1993-ready-to-wear@perry-ellis,spring-1995-ready-to-wear@john-galliano,spring-1992-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@prada,spring-1992-ready-to-wear@prada,fall-1995-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,fall-1995-couture@mugler,fall-1994-ready-to-wear@john-galliano,spring-1994-ready-to-wear@jean-paul-gaultier,spring-1992-ready-to-wear@mugler
+Agency:	Count:4|Marilyn,D'MANAGEMENT,MARILYN,TESS
+Photos:	Count:5|Courtesy of Anna Sui,Condé Nast Archive,Condé  Nast Archive,Courtesy of Prada,Guy Marineau
+******************************************************
+Name:	Chrystèle Saint Louis Augustin
+Gender:	
+Shows:	Count:9|fall-1995-ready-to-wear@comme-des-garcons,fall-1995-ready-to-wear@calvin-klein-collection,spring-1995-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@calvin-klein-collection,fall-1995-ready-to-wear@gucci,fall-1994-ready-to-wear@comme-des-garcons,fall-1995-couture@mugler,fall-1995-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,spring-1995-ready-to-wear@jean-paul-gaultier
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Carla Bruni
+Gender:	F
+Shows:	Count:11|fall-1994-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,spring-1994-ready-to-wear@anna-sui,fall-1992-ready-to-wear@versace,spring-1994-ready-to-wear@chanel,spring-1993-ready-to-wear@anna-sui,spring-1993-ready-to-wear@perry-ellis,spring-1995-ready-to-wear@john-galliano,spring-1995-ready-to-wear@prada,spring-1992-ready-to-wear@prada,fall-1995-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,fall-1994-ready-to-wear@john-galliano
+Agency:	Count:1|MARILYN
+Photos:	Count:4|Condé Nast Archive,Condé  Nast Archive,Courtesy of Prada,Guy Marineau
+******************************************************
+Name:	Tatjana Patitz
+Gender:	F
+Shows:	Count:9|fall-1994-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,spring-1992-ready-to-wear@prada,fall-1995-ready-to-wear@calvin-klein-collection,spring-1995-ready-to-wear@calvin-klein-collection,spring-1992-ready-to-wear@comme-des-garcons,fall-1994-ready-to-wear@helmut-lang,fall-1992-ready-to-wear@comme-des-garcons,spring-1993-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@jean-paul-gaultier
+Agency:	Count:2|ELITE,Trump
+Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
+******************************************************
+Name:	Michele Hicks
+Gender:	F
+Shows:	Count:12|spring-1994-ready-to-wear@prada,fall-1995-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@anna-sui,fall-1995-ready-to-wear@calvin-klein-collection,spring-1994-ready-to-wear@calvin-klein-collection,spring-1995-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@chanel,fall-1995-ready-to-wear@gucci,fall-1994-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@john-galliano,spring-1994-ready-to-wear@jean-paul-gaultier,fall-1994-ready-to-wear@john-galliano
+Agency:	Count:1|MARILYN
+Photos:	Count:3|Courtesy of Anna Sui,Condé Nast Archive,Guy Marineau
+******************************************************
+Name:	Claudia Huidobro
+Gender:	F
+Shows:	Count:3|fall-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@comme-des-garcons,spring-1993-ready-to-wear@comme-des-garcons
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Karl Lagerfeld
+Gender:	
+Shows:	Count:1|spring-1994-ready-to-wear@chanel
+Agency:	Count:0
+Photos:	Count:0
+******************************************************
+Name:	Lypsinka
+Gender:	M
+Shows:	Count:1|spring-1992-ready-to-wear@mugler
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Yasmin Le Bon
+Gender:	F
+Shows:	Count:3|fall-1993-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,spring-1994-ready-to-wear@chanel,spring-1993-ready-to-wear@perry-ellis
+Agency:	Count:0
+Photos:	Count:2|Condé Nast Archive,Condé  Nast Archive
+******************************************************
+Name:	Marpessa Hennink
+Gender:	
+Shows:	Count:4|fall-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@comme-des-garcons,spring-1993-ready-to-wear@comme-des-garcons,fall-1992-ready-to-wear@versace
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Emma Warg
+Gender:	F
+Shows:	Count:6|spring-1994-ready-to-wear@comme-des-garcons,fall-1994-ready-to-wear@comme-des-garcons,fall-1993-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@comme-des-garcons,fall-1992-ready-to-wear@comme-des-garcons,spring-1993-ready-to-wear@comme-des-garcons
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Isabella Rossellini
+Gender:	
+Shows:	Count:1|spring-1995-ready-to-wear@jean-paul-gaultier
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Anneliese Seubert
+Gender:	F
+Shows:	Count:2|fall-1994-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@comme-des-garcons
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Debbie Deitering
+Gender:	F
+Shows:	Count:15|spring-1994-ready-to-wear@prada,fall-1995-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@anna-sui,spring-1994-ready-to-wear@comme-des-garcons,fall-1995-ready-to-wear@calvin-klein-collection,spring-1994-ready-to-wear@calvin-klein-collection,spring-1995-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@chanel,spring-1995-ready-to-wear@calvin-klein-collection,fall-1994-ready-to-wear@comme-des-garcons,fall-1993-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@john-galliano,spring-1995-ready-to-wear@prada,spring-1995-ready-to-wear@jean-paul-gaultier,fall-1994-ready-to-wear@john-galliano
+Agency:	Count:1|MARILYN
+Photos:	Count:3|Courtesy of Anna Sui,Condé Nast Archive,Guy Marineau
+******************************************************
+Name:	Valeria Mazza
+Gender:	F
+Shows:	Count:1|spring-1995-ready-to-wear@issey-miyake
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Jean Paul Gaultier
+Gender:	
+Shows:	Count:1|spring-1994-ready-to-wear@jean-paul-gaultier
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Chandra North
+Gender:	F
+Shows:	Count:6|fall-1995-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@comme-des-garcons,fall-1995-ready-to-wear@calvin-klein-collection,spring-1995-ready-to-wear@calvin-klein-collection,fall-1993-ready-to-wear@comme-des-garcons
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Calvin Klein
+Gender:	F
+Shows:	Count:1|spring-1995-ready-to-wear@calvin-klein-collection
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Bénédicte Loyen
+Gender:	F
+Shows:	Count:6|fall-1995-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@comme-des-garcons,spring-1993-ready-to-wear@anna-sui,spring-1993-ready-to-wear@perry-ellis,fall-1994-ready-to-wear@comme-des-garcons,fall-1993-ready-to-wear@comme-des-garcons
+Agency:	Count:0
+Photos:	Count:2|Condé Nast Archive,Condé  Nast Archive
+******************************************************
+Name:	Patricia Hartmann
+Gender:	F
+Shows:	Count:4|spring-1994-ready-to-wear@calvin-klein-collection,spring-1993-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@anna-sui
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Gin Clarke
+Gender:	F
+Shows:	Count:1|spring-1995-ready-to-wear@jean-paul-gaultier
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Nadège du Bospertus
+Gender:	F
+Shows:	Count:6|fall-1992-ready-to-wear@versace,spring-1993-ready-to-wear@anna-sui,spring-1995-ready-to-wear@calvin-klein-collection,spring-1992-ready-to-wear@comme-des-garcons,fall-1992-ready-to-wear@comme-des-garcons,spring-1993-ready-to-wear@comme-des-garcons
+Agency:	Count:0
+Photos:	Count:2|Condé Nast Archive,Condé  Nast Archive
+******************************************************
+Name:	Jodie Kidd
+Gender:	F
+Shows:	Count:1|fall-1995-ready-to-wear@calvin-klein-collection
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Stephanie Seymour
+Gender:	
+Shows:	Count:1|fall-1992-ready-to-wear@versace
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Alice Dodd
+Gender:	F
+Shows:	Count:1|spring-1995-ready-to-wear@issey-miyake
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Julie Newmar
+Gender:	F
+Shows:	Count:1|fall-1995-couture@mugler
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Ines Rivero
+Gender:	
+Shows:	Count:1|fall-1995-couture@mugler
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Tom Ford
+Gender:	
+Shows:	Count:1|fall-1995-ready-to-wear@gucci
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	John Galliano
+Gender:	
+Shows:	Count:2|spring-1993-ready-to-wear@john-galliano,fall-1994-ready-to-wear@john-galliano
+Agency:	Count:0
+Photos:	Count:2|Condé Nast Archive,Guy Marineau
+******************************************************
+Name:	Donovan Leitch
+Gender:	
+Shows:	Count:1|spring-1994-ready-to-wear@anna-sui
+Agency:	Count:0
+Photos:	Count:1|Courtesy of Anna Sui
+******************************************************
+Name:	Marie Sophie Wilson-Carr
+Gender:	F
+Shows:	Count:8|spring-1994-ready-to-wear@comme-des-garcons,spring-1993-ready-to-wear@john-galliano,fall-1994-ready-to-wear@comme-des-garcons,fall-1993-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@john-galliano,fall-1992-ready-to-wear@comme-des-garcons,spring-1993-ready-to-wear@comme-des-garcons
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Jenny Shimizu
+Gender:	
+Shows:	Count:4|spring-1994-ready-to-wear@prada,spring-1994-ready-to-wear@calvin-klein-collection,spring-1994-ready-to-wear@anna-sui,spring-1994-ready-to-wear@jean-paul-gaultier
+Agency:	Count:0
+Photos:	Count:2|Courtesy of Anna Sui,Condé Nast Archive
+******************************************************
+Name:	Ludmila Isaeva Malahova
+Gender:	F
+Shows:	Count:3|fall-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@comme-des-garcons
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Jeff Stryker
+Gender:	M
+Shows:	Count:1|spring-1992-ready-to-wear@mugler
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Anna Pawlowski
+Gender:	F
+Shows:	Count:3|fall-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@jean-paul-gaultier
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Niki Taylor
+Gender:	F
+Shows:	Count:3|spring-1992-ready-to-wear@mugler,spring-1994-ready-to-wear@chanel,fall-1992-ready-to-wear@versace
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Nadja Auermann
+Gender:	F
+Shows:	Count:24|fall-1995-ready-to-wear@comme-des-garcons,fall-1995-ready-to-wear@gucci,fall-1994-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@john-galliano,spring-1995-ready-to-wear@prada,spring-1992-ready-to-wear@mugler,spring-1994-ready-to-wear@prada,spring-1994-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@chanel,spring-1995-ready-to-wear@calvin-klein-collection,spring-1993-ready-to-wear@perry-ellis,spring-1992-ready-to-wear@comme-des-garcons,fall-1995-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,fall-1992-ready-to-wear@comme-des-garcons,fall-1994-ready-to-wear@john-galliano,fall-1994-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,spring-1993-ready-to-wear@prada,spring-1993-ready-to-wear@anna-sui,fall-1993-ready-to-wear@comme-des-garcons,fall-1994-ready-to-wear@helmut-lang,fall-1995-couture@mugler,spring-1993-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@jean-paul-gaultier
+Agency:	Count:2|DNA,MARILYN
+Photos:	Count:4|Condé Nast Archive,Courtesy of Prada,Condé  Nast Archive,Guy Marineau
+******************************************************
+Name:	Daniela Pestova
+Gender:	F
+Shows:	Count:1|spring-1992-ready-to-wear@prada
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Sarah Murdoch
+Gender:	
+Shows:	Count:1|spring-1995-ready-to-wear@issey-miyake
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Trish Goff
+Gender:	F
+Shows:	Count:6|fall-1995-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@anna-sui,fall-1995-ready-to-wear@calvin-klein-collection,spring-1995-ready-to-wear@calvin-klein-collection,fall-1995-ready-to-wear@gucci,spring-1995-ready-to-wear@prada
+Agency:	Count:1|VIVA
+Photos:	Count:2|Courtesy of Anna Sui,Condé Nast Archive
+******************************************************
+Name:	Rossy de Palma
+Gender:	
+Shows:	Count:2|fall-1995-couture@mugler,spring-1994-ready-to-wear@jean-paul-gaultier
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Farida Khelfa
+Gender:	
+Shows:	Count:1|spring-1995-ready-to-wear@jean-paul-gaultier
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Helena Barquilla
+Gender:	F
+Shows:	Count:2|fall-1995-couture@mugler,spring-1992-ready-to-wear@prada
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Tatiana Sorokko
+Gender:	
+Shows:	Count:2|spring-1993-ready-to-wear@prada,fall-1995-ready-to-wear@andreas-kronthaler-for-vivienne-westwood
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Shana Zadrick
+Gender:	F
+Shows:	Count:1|spring-1992-ready-to-wear@prada
+Agency:	Count:0
+Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
+******************************************************
+Name:	Veruschka
+Gender:	
+Shows:	Count:1|fall-1995-couture@mugler
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Kristen McMenamy
+Gender:	F
+Shows:	Count:13|fall-1995-ready-to-wear@comme-des-garcons,spring-1993-ready-to-wear@john-galliano,spring-1995-ready-to-wear@comme-des-garcons,spring-1993-ready-to-wear@prada,spring-1993-ready-to-wear@anna-sui,spring-1995-ready-to-wear@calvin-klein-collection,spring-1993-ready-to-wear@perry-ellis,fall-1993-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@jean-paul-gaultier,spring-1995-ready-to-wear@john-galliano,fall-1992-ready-to-wear@comme-des-garcons,spring-1993-ready-to-wear@comme-des-garcons
+Agency:	Count:1|The Lions
+Photos:	Count:2|Condé Nast Archive,Condé  Nast Archive
+******************************************************
+Name:	Plum Sykes
+Gender:	
+Shows:	Count:2|spring-1994-ready-to-wear@prada,spring-1995-ready-to-wear@alexander-mcqueen
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Jerry Hall
+Gender:	
+Shows:	Count:1|fall-1995-couture@mugler
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Cordula Reyer
+Gender:	F
+Shows:	Count:6|spring-1995-ready-to-wear@comme-des-garcons,fall-1994-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@comme-des-garcons,fall-1994-ready-to-wear@helmut-lang,fall-1992-ready-to-wear@comme-des-garcons,spring-1993-ready-to-wear@comme-des-garcons
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Marc Jacobs
+Gender:	
+Shows:	Count:1|spring-1993-ready-to-wear@perry-ellis
+Agency:	Count:0
+Photos:	Count:1|Condé  Nast Archive
+******************************************************
+Name:	Kirsty Hume
+Gender:	F
+Shows:	Count:4|spring-1995-ready-to-wear@prada,spring-1995-ready-to-wear@calvin-klein-collection,fall-1995-ready-to-wear@gucci,fall-1995-ready-to-wear@calvin-klein-collection
+Agency:	Count:1|DNA
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Janine Giddings
+Gender:	F
+Shows:	Count:11|spring-1994-ready-to-wear@prada,fall-1995-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@anna-sui,spring-1994-ready-to-wear@comme-des-garcons,fall-1995-ready-to-wear@calvin-klein-collection,spring-1994-ready-to-wear@calvin-klein-collection,spring-1995-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@chanel,spring-1995-ready-to-wear@calvin-klein-collection,fall-1994-ready-to-wear@comme-des-garcons,fall-1993-ready-to-wear@comme-des-garcons
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Leslie Navajes
+Gender:	F
+Shows:	Count:2|fall-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@comme-des-garcons
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Ève Salvail
+Gender:	F
+Shows:	Count:6|spring-1994-ready-to-wear@anna-sui,spring-1994-ready-to-wear@calvin-klein-collection,spring-1994-ready-to-wear@chanel,fall-1994-ready-to-wear@comme-des-garcons,fall-1993-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@jean-paul-gaultier
+Agency:	Count:0
+Photos:	Count:2|Courtesy of Anna Sui,Condé Nast Archive
+******************************************************
+Name:	Madonna
+Gender:	
+Shows:	Count:1|spring-1995-ready-to-wear@jean-paul-gaultier
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Wallis Franken
+Gender:	F
+Shows:	Count:1|spring-1994-ready-to-wear@chanel
+Agency:	Count:0
+Photos:	Count:0
+******************************************************
+Name:	Elfie Semotan
+Gender:	F
+Shows:	Count:1|fall-1994-ready-to-wear@helmut-lang
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Jamie King
+Gender:	
+Shows:	Count:1|spring-1995-ready-to-wear@alexander-mcqueen
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Emma Wiklund
+Gender:	F
+Shows:	Count:3|spring-1993-ready-to-wear@perry-ellis,spring-1995-ready-to-wear@issey-miyake,spring-1992-ready-to-wear@mugler
+Agency:	Count:0
+Photos:	Count:2|Condé Nast Archive,Condé  Nast Archive
+******************************************************
+Name:	Emmanuelle Alt
+Gender:	
+Shows:	Count:1|spring-1995-ready-to-wear@jean-paul-gaultier
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Irina Pantaeva
+Gender:	
+Shows:	Count:6|fall-1995-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@comme-des-garcons,fall-1995-ready-to-wear@calvin-klein-collection,spring-1995-ready-to-wear@issey-miyake,spring-1995-ready-to-wear@calvin-klein-collection,fall-1995-couture@mugler
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Bridget Hall
+Gender:	F
+Shows:	Count:5|spring-1994-ready-to-wear@chanel,fall-1993-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@calvin-klein-collection,spring-1994-ready-to-wear@anna-sui,spring-1995-ready-to-wear@prada
+Agency:	Count:2|ONE,IMG London
+Photos:	Count:2|Courtesy of Anna Sui,Condé Nast Archive
+******************************************************
+Name:	Rachel Williams
+Gender:	F
+Shows:	Count:2|fall-1995-couture@mugler,spring-1992-ready-to-wear@mugler
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Meghan Douglas
+Gender:	F
+Shows:	Count:11|spring-1993-ready-to-wear@john-galliano,fall-1995-ready-to-wear@calvin-klein-collection,spring-1994-ready-to-wear@chanel,spring-1993-ready-to-wear@prada,spring-1993-ready-to-wear@anna-sui,spring-1995-ready-to-wear@calvin-klein-collection,spring-1992-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@prada,fall-1995-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,spring-1995-ready-to-wear@john-galliano,spring-1995-ready-to-wear@jean-paul-gaultier
+Agency:	Count:0
+Photos:	Count:3|Condé Nast Archive,Courtesy of Prada,Condé  Nast Archive
+******************************************************
+Name:	Marie Helvin
+Gender:	
+Shows:	Count:1|fall-1995-couture@mugler
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Sibyl Buck
+Gender:	F
+Shows:	Count:2|fall-1995-couture@mugler,spring-1995-ready-to-wear@jean-paul-gaultier
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Gisele Zelauy
+Gender:	F
+Shows:	Count:3|fall-1992-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@comme-des-garcons,spring-1993-ready-to-wear@comme-des-garcons
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Rosemary Ferguson
+Gender:	F
+Shows:	Count:6|spring-1994-ready-to-wear@prada,spring-1994-ready-to-wear@anna-sui,spring-1994-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@calvin-klein-collection,fall-1993-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@prada
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Marcus Schenkenberg
+Gender:	M
+Shows:	Count:1|fall-1994-ready-to-wear@helmut-lang
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Emma Balfour
+Gender:	F
+Shows:	Count:8|spring-1994-ready-to-wear@comme-des-garcons,fall-1995-ready-to-wear@calvin-klein-collection,spring-1995-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@calvin-klein-collection,spring-1995-ready-to-wear@calvin-klein-collection,fall-1994-ready-to-wear@comme-des-garcons,fall-1993-ready-to-wear@comme-des-garcons,spring-1993-ready-to-wear@maison-martin-margiela
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Diane Brill
+Gender:	
+Shows:	Count:2|fall-1995-couture@mugler,spring-1992-ready-to-wear@mugler
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Alexander McQueen
+Gender:	
+Shows:	Count:1|spring-1995-ready-to-wear@alexander-mcqueen
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Jaime King
+Gender:	
+Shows:	Count:1|spring-1995-ready-to-wear@alexander-mcqueen
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Natane Boudreau
+Gender:	F
+Shows:	Count:5|spring-1994-ready-to-wear@chanel,spring-1994-ready-to-wear@calvin-klein-collection,spring-1995-ready-to-wear@calvin-klein-collection,spring-1995-ready-to-wear@jean-paul-gaultier,fall-1995-ready-to-wear@calvin-klein-collection
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Amber Valletta
+Gender:	F
+Shows:	Count:13|spring-1994-ready-to-wear@prada,fall-1995-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@comme-des-garcons,spring-1994-ready-to-wear@chanel,spring-1995-ready-to-wear@calvin-klein-collection,fall-1995-ready-to-wear@gucci,fall-1994-ready-to-wear@comme-des-garcons,fall-1993-ready-to-wear@comme-des-garcons,fall-1995-couture@mugler,spring-1995-ready-to-wear@prada,fall-1995-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,spring-1995-ready-to-wear@john-galliano
+Agency:	Count:1|Women
+Photos:	Count:2|Condé Nast Archive,Courtesy of Prada
+******************************************************
+Name:	Patricia Velasquez
+Gender:	
+Shows:	Count:1|fall-1992-ready-to-wear@comme-des-garcons
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Christine Bergstrom
+Gender:	F
+Shows:	Count:1|spring-1995-ready-to-wear@jean-paul-gaultier
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Lady Amanda Harlech
+Gender:	
+Shows:	Count:1|spring-1994-ready-to-wear@prada
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Gail Elliot
+Gender:	
+Shows:	Count:2|spring-1995-ready-to-wear@john-galliano,spring-1993-ready-to-wear@perry-ellis
+Agency:	Count:0
+Photos:	Count:2|Condé Nast Archive,Condé  Nast Archive
+******************************************************
+Name:	Violetta Sanchez
+Gender:	F
+Shows:	Count:1|fall-1995-couture@mugler
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Kiara Kabukuru
+Gender:	F
+Shows:	Count:1|spring-1994-ready-to-wear@calvin-klein-collection
+Agency:	Count:2|IMG New York,IMG London
+Photos:	Count:0
+******************************************************
+Name:	Nina Brosh
+Gender:	F
+Shows:	Count:1|fall-1994-ready-to-wear@comme-des-garcons
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive
+******************************************************
+Name:	Shalom Harlow
+Gender:	F
+Shows:	Count:18|fall-1995-ready-to-wear@comme-des-garcons,spring-1993-ready-to-wear@john-galliano,spring-1995-ready-to-wear@comme-des-garcons,spring-1993-ready-to-wear@prada,spring-1993-ready-to-wear@anna-sui,spring-1995-ready-to-wear@calvin-klein-collection,fall-1995-ready-to-wear@gucci,spring-1993-ready-to-wear@perry-ellis,fall-1994-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@john-galliano,fall-1993-ready-to-wear@comme-des-garcons,spring-1992-ready-to-wear@comme-des-garcons,spring-1995-ready-to-wear@prada,spring-1995-ready-to-wear@jean-paul-gaultier,fall-1995-ready-to-wear@andreas-kronthaler-for-vivienne-westwood,fall-1995-couture@mugler,spring-1993-ready-to-wear@comme-des-garcons,fall-1994-ready-to-wear@john-galliano
+Agency:	Count:2|DNA,IMG London
+Photos:	Count:3|Condé Nast Archive,Condé  Nast Archive,Guy Marineau
+******************************************************
+Name:	Benedetta Barzini
+Gender:	F
+Shows:	Count:1|fall-1992-ready-to-wear@comme-des-garcons
+Agency:	Count:0
+Photos:	Count:1|Condé Nast Archive

@@ -1,6 +1,11 @@
 # -*- coding:utf-8 -*-
 import urllib2
+import csv
 import time
+
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 def getContent(url, count):
     while count > 0:
@@ -8,8 +13,8 @@ def getContent(url, count):
         try:
             response = urllib2.urlopen(request, timeout=10)
             return response.read()
-        except urllib2.URLError, e:
-            print e.reason
+        except (urllib2.URLError, Exception), e:
+            print e.reason, url
         count -= 1
         time.sleep(10)
     
@@ -39,7 +44,7 @@ def dump(dic, fileName):
         fileWriter.close()
 
 def printFile(s, fileName):
-    fileWriter = open(fileName, 'w', "utf-8")
+    fileWriter = open(fileName, 'w')
     try:
         fileWriter.write(s)
     finally:
@@ -49,4 +54,21 @@ def setToString(s):
     res = "Count:" + str(len(s)) + "|"
     for item in s:
         res = res + item + ","
+    return res[0:-1]
+
+def dumpToCSV(l, fileName):
+    out = open(fileName, 'wb')
+
+    try:
+        csv_writer = csv.writer(out, dialect='excel')
+        csv_writer.writerows(l)
+    except Exception, e:
+        print e
+    finally:
+        out.close()
+
+def setToCSVString(s):
+    res = ""
+    for item in s:
+        res = res + item + "\n"
     return res[0:-1]

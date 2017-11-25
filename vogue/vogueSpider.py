@@ -22,15 +22,13 @@ brand_url_map = {}
 
 failed_shows = {}
 
-class Model:
-    name = ""
-    gender = ""
-    agencies = set()
-    photos = set()
-    shows = set()
-    
+class Model:    
     def __init__(self, name):
         self.name = name
+        self.gender = ""
+        self.agencies = set()
+        self.photos = set()
+        self.shows = set()
     
     def setName(self, name):
         self.name = name
@@ -57,6 +55,15 @@ class Model:
         s = s + "\nAgency:\t" + utils.setToString(self.agencies)
         s = s + "\nPhotos:\t" + utils.setToString(self.photos) + "\n"
         return s
+
+    def getList(self):
+        res = []
+        res.append(self.name)
+        res.append(self.gender)
+        res.append(utils.setToCSVString(self.shows))
+        res.append(utils.setToCSVString(self.agencies))
+        res.append(utils.setToCSVString(self.photos))
+        return res
 
 
         
@@ -123,7 +130,7 @@ def doOneShow(name):
             brands[brand].append(name)
 
         url = url_without_brand + "/" + brand + suffix_url
-        print "Brand:\t" + brand + "\t" + url
+        print "    Brand:\t" + brand + "\t" + url
         
         res = extractInfoFromFinalPage(url, name+"@"+brand)
         # 返回-1,代表网页提取失败，记录下
@@ -135,6 +142,7 @@ def doOneShow(name):
                 failed_shows[name].append(brand)
 
         time.sleep(2)
+        # break
     
     
 def extractInfoFromFinalPage(url, name):
@@ -157,7 +165,6 @@ def extractInfoFromFinalPage(url, name):
             else:
                 model_name = people["name"]
 
-                model = None
                 # 若该模特已存在，取出引用
                 if model_name in models:
                     model = models[model_name]
@@ -167,15 +174,17 @@ def extractInfoFromFinalPage(url, name):
                     models[model_name] = model
                 
                 # 姑且当做性别可改变吧...
-                if "gender" in people:
+                if "gender" in people and len(people["gender"].strip()) > 0:
                     model.setGender(people["gender"])
                 if "agencies" in people:
                     for agency in people["agencies"]:
                         model.addAgencies(agency["name"])
 
                 try:
-                    photoer = slide["slideDetails"]["photoCredits"].split(":")[1].strip()
-                    model.addPhotographer(photoer)
+                    photoInfo = slide["slideDetails"]
+                    if "photoCredits" in photoInfo and len(photoInfo["photoCredits"]) > 0:
+                        photoer = photoInfo["photoCredits"].split(":")[1].strip()
+                        model.addPhotographer(photoer)
                 except Exception, e:
                     print e
 
@@ -187,18 +196,34 @@ base_dir = ".\\res\\"
 def finalWork():
     utils.dump(failed_shows, base_dir+"failedShows.txt")
     # utils.dump(models, base_dir+"models.txt")
-    fileWriter = open(base_dir+"models.txt", 'w')
-    try:
-        for model_name in models:
-            fileWriter.write("******************************************************\n")
-            fileWriter.write(models[model_name].getInfo())
-    finally:
-        fileWriter.close()
+    # fileWriter = open(base_dir+"models.txt", 'w')
+    # try:
+    #     for model_name in models:
+    #         fileWriter.write("******************************************************\n")
+    #         fileWriter.write(models[model_name].getInfo())
+    # finally:
+    #     fileWriter.close()
+    
+    headers = []
+    headers.append("Name")
+    headers.append("Gender")
+    headers.append("Shows")
+    headers.append("Agencies")
+    headers.append("Photographers")
+
+    resList = []
+    resList.append(headers)
+    for model_name in models:
+        model = models[model_name]
+        resList.append(model.getList())
+    
+    utils.dumpToCSV(resList, base_dir+"models.csv")
+
 
 getShowLists()
 work()
 finalWork()
 
-print "Word Done!"
+print "Work Done!"
 
 
