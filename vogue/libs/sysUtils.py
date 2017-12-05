@@ -8,17 +8,24 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 def getContent(url, count):
+    i = 1
     while count > 0:
+        if i > 1:
+            print "Try for times " + str(i) + " " + url
         request = urllib2.Request(url)
         try:
             response = urllib2.urlopen(request, timeout=10)
+            if i > 1:
+                print "Finally Success with " + url
             return response.read()
         except (urllib2.URLError, Exception), e:
-            print e.reason, url
+            print e, url
         count -= 1
+        i += 1
         time.sleep(10)
     
     # 若仍然进行到此处，则证明一直为正常取到该url所对应的网页内容，返回None标记失败
+    print "Failed to fetch " + url
     return None
 
 
@@ -66,6 +73,19 @@ def dumpToCSV(l, fileName):
         print e
     finally:
         out.close()
+
+def readFromCSV(fileName):
+    file = open(fileName, 'rb')
+
+    res = []
+    try:
+        csv_reader = csv.reader(file, dialect='excel')
+        for row in csv_reader:
+            res.append(row)
+    finally:
+        file.close()
+
+    return res
 
 def setToCSVString(s):
     res = ""

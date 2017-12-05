@@ -123,6 +123,9 @@ def doOneShow(name):
 
     # 构造品牌-秀倒排字典
     for brand in brandList:
+        # if brand != "rag-bone":
+        #     continue
+
         if brand in brands:
             brands[brand].append(name)
         else:
@@ -148,47 +151,58 @@ def doOneShow(name):
 def extractInfoFromFinalPage(url, name):
     content = utils.getContent(url, 5)
     if content == None:
+        print "    Brand Failed!"
         return -1
 
     # 获取json对象
-    jsonPattern = re.compile('window.__VOG__.initialState = \{ react: (\{.*?\})(, relay: \{\} \}|);')
+    jsonPattern = re.compile('window.__VOG__.initialState = \{ react: (\{.*?"plugins":\{\}\},"plugins":\{\}\}) \}')
     jsonStr = re.search(jsonPattern, content).group(1)
+    # print jsonStr
 
     slides = json.loads(jsonStr)["context"]["dispatcher"]["stores"]["FashionShowCalendarStore"]["_extra"][0]["slides"]
 
-    for slide in slides:
+    try:
+        for slide in slides:
 
-        peoples = slide["taggedPeople"]
-        for people in peoples:
-            if "name" not in people:
+            peoples = slide["taggedPeople"]
+            if peoples == None:
                 continue
-            else:
-                model_name = people["name"]
-
-                # 若该模特已存在，取出引用
-                if model_name in models:
-                    model = models[model_name]
+            for people in peoples:
+                if people == None:
+                    continue
+                if "name" not in people:
+                    continue
                 else:
-                    # 否则new一个，并添加至引用
-                    model = Model(model_name)
-                    models[model_name] = model
-                
-                # 姑且当做性别可改变吧...
-                if "gender" in people and len(people["gender"].strip()) > 0:
-                    model.setGender(people["gender"])
-                if "agencies" in people:
-                    for agency in people["agencies"]:
-                        model.addAgencies(agency["name"])
+                    model_name = people["name"]
 
-                try:
-                    photoInfo = slide["slideDetails"]
-                    if "photoCredits" in photoInfo and len(photoInfo["photoCredits"]) > 0:
-                        photoer = photoInfo["photoCredits"].split(":")[1].strip()
-                        model.addPhotographer(photoer)
-                except Exception, e:
-                    print e
+                    # 若该模特已存在，取出引用
+                    if model_name in models:
+                        model = models[model_name]
+                    else:
+                        # 否则new一个，并添加至引用
+                        model = Model(model_name)
+                        models[model_name] = model
+                    
+                    # 姑且当做性别可改变吧...
+                    if "gender" in people and len(people["gender"].strip()) > 0:
+                        model.setGender(people["gender"])
+                    if "agencies" in people:
+                        for agency in people["agencies"]:
+                            model.addAgencies(agency["name"])
 
-                model.addShows(name)
+                    try:
+                        photoInfo = slide["slideDetails"]
+                        if "photoCredits" in photoInfo and len(photoInfo["photoCredits"]) > 0:
+                            photoer = re.sub(re.compile("(photo:)|(/shoot digital)", re.I), "", slide["slideDetails"]["photoCredits"]).strip()
+                            model.addPhotographer(photoer)
+                    except Exception, e:
+                        print e, slide["id"]
+
+                    model.addShows(name)
+    
+    except Exception, e:
+        print e
+        utils.dump(models, ".\\res\\models_tmp.txt")
     
     return 0
 
@@ -217,7 +231,11 @@ def finalWork():
         model = models[model_name]
         resList.append(model.getList())
     
-    utils.dumpToCSV(resList, base_dir+"models.csv")
+    try:
+        utils.dumpToCSV(resList, base_dir+"models.csv")
+    except Exception, e:
+        print e
+        utils.dumpToCSV(resList, base_dir+"models_backup.csv")
 
 
 getShowLists()
