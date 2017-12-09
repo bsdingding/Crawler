@@ -54,7 +54,7 @@ class Model:
             line = []
             line.append(self.name)
             line.append(self.gender)
-            line.extend(show.getList())
+            line.extend(self.shows[show].getList())
             res.append(line)
 
         return res
