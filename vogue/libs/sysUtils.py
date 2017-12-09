@@ -92,3 +92,9 @@ def setToCSVString(s):
     for item in s:
         res = res + item + "\n"
     return res[0:-1]
+
+def setToLine(s):
+    res = ""
+    for item in s:
+        res = res + item + ","
+    return res[0:-1]

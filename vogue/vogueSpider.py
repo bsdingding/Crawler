@@ -26,45 +26,73 @@ class Model:
     def __init__(self, name):
         self.name = name
         self.gender = ""
-        self.agencies = set()
-        self.photos = set()
-        self.shows = set()
+        self.shows = {}
     
     def setName(self, name):
         self.name = name
     def setGender(self, gender):
         self.gender = gender
-    def addAgencies(self, agency):
-        self.agencies.add(agency)
-    def addPhotographer(self, photo):
-        self.photos.add(photo)
-    def addShows(self, show):
-        self.shows.add(show)
-
+    def getOrCreateShow(self, showName):
+        if showName not in self.shows:
+            self.shows[showName] = Show(showName)
+        return self.shows[showName]
     def outPut(self):
         print "Name:\t" + self.name 
         print "Gender:\t" + self.gender
         print "Shows:\t" + self.shows
-        print "Agency:\t" + self.agencies
-        print "Photos:\t" + self.photos
 
     def getInfo(self):
         s = "Name:\t" + self.name 
         s = s + "\nGender:\t" + self.gender
-        s = s + "\nShows:\t" + utils.setToString(self.shows)
-        s = s + "\nAgency:\t" + utils.setToString(self.agencies)
-        s = s + "\nPhotos:\t" + utils.setToString(self.photos) + "\n"
+        s = s + "\nShows:\t" + utils.setToString(self.shows) + "\n"
         return s
+
+    # 一个Show一行，返回该模特的所有信息（多行）
+    def getLists(self):
+        res = []
+        for show in self.shows:
+            line = []
+            line.append(self.name)
+            line.append(self.gender)
+            line.extend(show.getList())
+            res.append(line)
+
+        return res
+
+class Show:
+    def __init__(self, showName):
+        # print "showName: " + showName
+        show_with_brand = showName.split("@")
+        self.brand = show_with_brand[1]
+        self.name = show_with_brand[0]
+        parts = re.split("(\d{4})",  self.name)
+        # 无type模式
+        if len(parts) >= 2:
+            self.season = parts[0][0:-1]
+            self.year = parts[1]
+            self.type = "-"
+        if len(parts) == 3:
+            self.type = parts[2][1:]
+        self.photoers = set()
+        self.agencies = set()
+    
+    def addPhotoers(self, p):
+        self.photoers.add(p.strip().title())
+    def addAgencies(self, a):
+        self.agencies.add(a.strip().upper())
+    
+    def toString(self):
+        return self.year + "/" + self.season + "/" + self.type + "/" + self.brand
 
     def getList(self):
         res = []
-        res.append(self.name)
-        res.append(self.gender)
-        res.append(utils.setToCSVString(self.shows))
-        res.append(utils.setToCSVString(self.agencies))
-        res.append(utils.setToCSVString(self.photos))
+        res.append(self.year)
+        res.append(self.season)
+        res.append(self.type)
+        res.append(self.brand)
+        res.append(utils.setToLine(self.agencies))
+        res.append(utils.setToLine(self.photoers))
         return res
-
 
         
 
@@ -135,7 +163,7 @@ def doOneShow(name):
         url = url_without_brand + "/" + brand + suffix_url
         print "    Brand:\t" + brand + "\t" + url
         
-        res = extractInfoFromFinalPage(url, name+"@"+brand)
+        res = extractInfoFromFinalPage(url, name + "@" + brand)
         # 返回-1,代表网页提取失败，记录下
         if res == -1:
             if name in failed_shows:
@@ -148,7 +176,7 @@ def doOneShow(name):
         # break
     
     
-def extractInfoFromFinalPage(url, name):
+def extractInfoFromFinalPage(url, showName):
     content = utils.getContent(url, 5)
     if content == None:
         print "    Brand Failed!"
@@ -186,19 +214,22 @@ def extractInfoFromFinalPage(url, name):
                     # 姑且当做性别可改变吧...
                     if "gender" in people and len(people["gender"].strip()) > 0:
                         model.setGender(people["gender"])
+                    
+                    show = model.getOrCreateShow(showName)
                     if "agencies" in people:
                         for agency in people["agencies"]:
-                            model.addAgencies(agency["name"])
+                            show.addAgencies(agency["name"])
 
                     try:
                         photoInfo = slide["slideDetails"]
                         if "photoCredits" in photoInfo and len(photoInfo["photoCredits"]) > 0:
                             photoer = re.sub(re.compile("(photo:)|(/shoot digital)", re.I), "", slide["slideDetails"]["photoCredits"]).strip()
-                            model.addPhotographer(photoer)
+                            # model.addPhotographer(photoer)
+                            show.addPhotoers(photoer)
                     except Exception, e:
                         print e, slide["id"]
 
-                    model.addShows(name)
+                    # model.addShows(name)
     
     except Exception, e:
         print e
@@ -221,7 +252,10 @@ def finalWork():
     headers = []
     headers.append("Name")
     headers.append("Gender")
-    headers.append("Shows")
+    headers.append("Year")
+    headers.append("Season")
+    headers.append("Type")
+    headers.append("Brand")
     headers.append("Agencies")
     headers.append("Photographers")
 
@@ -229,7 +263,7 @@ def finalWork():
     resList.append(headers)
     for model_name in models:
         model = models[model_name]
-        resList.append(model.getList())
+        resList.extend(model.getLists())
     
     try:
         utils.dumpToCSV(resList, base_dir+"models.csv")

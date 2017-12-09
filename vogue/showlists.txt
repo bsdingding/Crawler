@@ -1,8 +1,4 @@
-pre-fall-2014
-pre-fall-2015
-pre-fall-2016
-resort-2010
-resort-2011
-fall-2007-ready-to-wear
-resort-2009
-fall-2014-ready-to-wear
+fall-1993-ready-to-wear
+spring-1993-ready-to-wear
+fall-1992-ready-to-wear
+spring-1992-ready-to-wear
