@@ -4,7 +4,7 @@ import re
 import libs.sysUtils as util
 
 def testUrl():
-    content = util.getContent("https://www.vogue.com/fashion-shows/fall-1992-ready-to-wear", 2)
+    content = util.getContent("https://www.vogue.com/fashion-shows/fall-2012-couture/christian-dior/slideshow/collection", 2)
     print content
     jsonPattern = re.compile('window.__VOG__.initialState = \{ react: (\{.*?"plugins":\{\}\},"plugins":\{\}\}) \}')
     jsonStr = re.search(jsonPattern, content).group(1)

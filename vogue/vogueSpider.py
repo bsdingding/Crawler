@@ -66,7 +66,7 @@ class Show:
         self.brand = show_with_brand[1]
         self.name = show_with_brand[0]
         parts = re.split("(\d{4})",  self.name)
-        # 无type模式
+        # 无type模式 
         if len(parts) >= 2:
             self.season = parts[0][0:-1]
             self.year = parts[1]
