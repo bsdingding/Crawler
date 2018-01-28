@@ -11,14 +11,6 @@ def testUrl():
 
     util.printFile(jsonStr, "testJson.txt")
 
-    slides = json.loads(jsonStr)["context"]["dispatcher"]["stores"]["FashionShowCalendarStore"]["_extra"][0]["slides"]
-    for slide in slides:
-        print slide["taggedPeople"]
-        print slide["id"]
-        if "photoCredits" in slide["slideDetails"]:
-            print re.sub(re.compile("(photo:)|(/shoot digital)", re.I), "", slide["slideDetails"]["photoCredits"]).strip()
-            
-        print "**************"
 
 def testSplit():
     src = r"spring-2013-ready-to-wear@anna-sui\nspring-2013-ready-to-wear@theyskens-theory\nspring-2013-ready-to-wear@jean-paul-gaultier\nfall-2013-ready-to-wear@libertine\nresort-2013@anna-sui\nspring-2013-ready-to-wear@roksanda\nspring-2012-ready-to-wear@libertine\nfall-2013-ready-to-wear@l-wren-scott\nspring-2013-ready-to-wear@mulberry\nfall-2012-couture@chanel\nfall-2012-ready-to-wear@veronique-leroy\nspring-2013-ready-to-wear@mary-katrantzou"

@@ -1,0 +1,2100 @@
+<!DOCTYPE html><html class="js flexbox flexboxlegacy canvas canvastext no-webgl touch no-geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent no-video no-audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths css-large" lang="en" style=""><head>
+<title>Models.com Database</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="//models.com/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://i.mdel.net/css/f/511/normalize-min.css">
+<link rel="stylesheet" href="https://i.mdel.net/h/18/mdcfoundation511.min.css">
+<link rel="stylesheet" href="https://models.com/css/f/foundation-icons/foundation-icons-min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://i.mdel.net/account/css/cssreset-min.css">
+<link rel="stylesheet" href="https://i.mdel.net/h/18/mdchead-1.css">
+<!--[if IE]>
+.joyride-expose-wrapper {opacity: .2;}/* IE does not support mix-blend-mode */
+<![endif]-->
+<script async="" src="//www.google-analytics.com/analytics.js"></script><script language="JavaScript" type="text/javascript" src="https://i.models.com/mdcdb/js/jquery-1.10.2.min.js"></script>
+<script src="https://models.com/js/f/511/modernizr/modernizr-min.js"></script>
+<script src="https://models.com/mdcdb/js/jquery.cookie-min.js"></script>
+<script src="https://i.models.com/mdcdb/js/qTip-v2.0.1-251/imagesloaded.pkg.min.js"></script>
+<link href="https://i.mdel.net/js/jquery-ui-1.11.4.custom/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/javascript" src="https://i.models.com/mdcdb/js/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="https://models.com/mdcdb/js/mdc-AutoSuggest_2017.js?v=2"></script>
+<script src="https://models.com/h/18/mdchead-1.js"></script>
+<link rel="stylesheet" type="text/css" href="https://i.mdel.net/account/css/editor2.css?v=11"> 
+<link rel="stylesheet" href="https://i.mdel.net/account/css/foundation-datepicker.min.css">
+<script src="https://models.com/account/js/editor-p.js?v=2"></script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-467181-1', 'auto');
+ga('send', 'pageview');
+</script>
+<meta class="foundation-data-attribute-namespace"><meta class="foundation-mq-xxlarge"><meta class="foundation-mq-xlarge"><meta class="foundation-mq-large"><meta class="foundation-mq-medium"><meta class="foundation-mq-small"><style></style><meta class="foundation-mq-topbar"></head>
+<body style="" class="f-topbar-fixed">
+<div id="BasicInfo" class="reveal-modal" data-reveal=""></div>
+<div class="sidenav off-canvas-wrap" data-offcanvas="" id="mdc-off-canvas-wrap">
+<div class="inner-wrap">
+<aside class="sidenav-left-off-canvas-menu">
+<ul class="off-canvas-list">
+<nav class="top-bar tab-bar">
+<div class="small-12 columns">
+<ul class="small-block-grid-5" id="MDCMobileMenuButtons">
+<li></li>
+<li></li>
+<li>
+</li>
+<li id="mobile-help-li">
+<a href="https://models.com/help/"><i class="fa fa-question" aria-hidden="true"></i></a>
+</li>
+<li class="left-off-canvas-toggle">
+<a href="#"><i class="fa fa-times"></i></a>
+</li>
+</ul>
+</div>
+</nav>
+<div id="mobilestatus">
+</div>
+<div id="MDCMobileMenuTabs">
+<ul class="button-group" id="tabs">
+<li class="firsttab" id="mobile-news-li"><a href="/h/17/inc_newsTabContent.cfm">News</a></li>
+<li id="mobile-agencies-li"><a href="#AgenciesTab">Agencies</a></li>
+<li id="mobile-settings-li"><a href="#AccountTab"><i class="fa fa-user fa-fw"></i> Account</a></li>
+</ul>
+<div class="absoluteSpinner"><i class="fa fa-spinner fa-spin"></i> Loading...</div>
+<div id="AgenciesTab" class="MDCMobileMenuItems">
+<div class="row" id="directoryrow">
+<div id="AgenciesMenu">
+<div class="large-12 columns">
+<ul>
+<li class="sidebarheader"><h2>Modeling / Actors Agencies:</h2></li>
+</ul>
+</div>
+<div class="large-3 columns">
+<ul>
+<li><a href="/agencies/Modeling">Modeling Agencies</a></li>
+</ul>
+</div>
+<div class="large-3 columns">
+<ul>
+<li><a href="/agencies/Mother">Mother Agencies</a></li>
+</ul>
+</div>
+<div class="large-6 columns">
+<ul>
+<li><a href="/agencies/Management">Talent Management Companies</a></li>
+</ul>
+</div>
+<div class="large-12 columns">
+<ul>
+<li class="sidebarheader"><h2>Creative Talent Agencies:</h2></li>
+</ul>
+</div>
+<div class="large-3 columns">
+<ul>
+<li><a href="/agencies/PhotoRep">Photographers Agencies</a></li>
+<li><a href="/agencies/StylistRep">Stylists Agencies</a></li>
+<li><a href="/agencies/Makeup">Makeup Artists Agencies</a></li>
+<li><a href="/agencies/Hair">Hair Stylists Agencies</a></li>
+<li><a href="/agencies/creativedirectors-agency">Creative Directors</a></li>
+</ul>
+</div>
+<div class="large-3 columns">
+<ul>
+<li><a href="/agencies/artdirectors-agency">Art Directors</a></li>
+<li><a href="/agencies/Hair-Makeup">Hair &amp; Makeup</a></li>
+<li><a href="/agencies/BeautyTherapy">Beauty Therapy</a></li>
+<li><a href="/agencies/Production">Production Companies</a></li>
+<li><a href="/agencies/propstylists-agency">Prop Stylists</a></li>	
+</ul>
+</div>
+<div class="large-3 columns">
+<ul>
+<li><a href="/agencies/Casting">Casting Agencies</a></li>
+<li><a href="/agencies/set-designers">Set Designers</a></li>
+<li><a href="/agencies/sound-designer-agency">Sound Designers</a></li>
+<li><a href="/agencies/journalists-agency">Journalists</a></li>
+<li><a href="/agencies/Manicurist">Manicurists Reps</a></li>
+</ul>
+</div>
+<div class="large-3 columns">
+<ul>
+<li><a href="/agencies/postprod-agency">Post Production / Retouchers</a></li>
+<li><a href="/agencies/haircolorists-agency">Hair Colorists</a></li>
+<li><a href="/agencies/groomers-agency">Groomers</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="AccountTab" class="MDCMobileMenuItems">
+<li class="sidenavname">
+<div class="row">
+<div class="small-8 columns mobileLoggedinas">dxj0623@163.com
+</div>
+<div class="small-4 columns mobileLoggedinas mobileLogout">
+<a href="?logout"><i class="fa fa-sign-out fa-fw"></i> Log Out</a>
+</div>
+</div>
+</li>
+<div id="AccountMenu">
+<ul>
+<li class="sidebarheader mobilemenu" id="sidebarheader-profile">
+<h2><a href="//models.com/account/"><i class="fa fa-user fa-fw"></i> Profile</a></h2>
+</li>
+<div id="sidebar-profile" class="active">
+</div>
+<li class="sidebarheader mobilemenu">
+<h2><a href="//models.com/account/favorites/"><i class="fa fa-heart fa-fw"></i> Favorites</a></h2>
+</li>
+<div id="sidebar-favorites" class="active">
+<li class=""><a href="//models.com/account/favorites/favorites.cfm">Favorite People</a></li>
+</div>
+<li class="sidebarheader mobilemenu">
+<h2><a href="//models.com/account/notifications/"><i class="fa fa-bell fa-fw"></i> Notifications</a></h2>
+</li>
+<div id="sidebar-agency-notifications" class="active">
+<li class=""><a href="//models.com/account/notifications/account-notifications">Account Notifications</a></li>
+</div>
+<li class="sidebarheader mobilemenu" id="sidebarheader-settings">
+<h2><a href="//models.com/account/settings/"><i class="fa fa-gears fa-fw"></i> Settings</a></h2>
+</li>
+<div id="sidebar-settings" class="active">
+<li class=""><a href="//models.com/account/settings/edit_info.cfm">Edit account</a></li>
+<li class=""><a href="//models.com/account/settings/social/social.cfm">Connected Social Accounts</a></li>
+<li class=""><a href="//models.com/account/settings/accountPaymentHistory/">Account Payment History</a></li>
+</div>
+</ul>
+</div>
+</div>
+</div>
+</ul>	
+</aside>
+<div id="fixedyesno" class="contain-to-grid fixed">
+<div class="mega-menu">
+<nav class="top-bar" data-topbar="">
+<ul class="title-area">
+<li class="name has-form">
+<div class="row show-for-large-up">
+<div class="large-12 columns"> 
+<a href="//models.com/"><img id="bgLogo" src="//i.mdel.net/i/mdc.svg" border="0" width="188" height="30" data-fallback="https://i.mdel.net/i/logo08.gif" class="logo-img-lrg"></a>
+</div>
+</div>
+<div class="row hide-for-large-up">
+<div class="small-3 columns">
+<a href="//models.com/"><img id="smLogo" src="//i.mdel.net/i/mdc-2015-g.svg" border="0" width="188" height="30" data-fallback="https://i.mdel.net/mdcdb/i/logo-15-187x67-g.gif"></a>
+</div>
+<div class="small-5 columns"> 
+<input type="text" id="sSearch" name="keywords" placeholder="" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+<div class="Qsearch"><i class="fa fa-search"></i></div>
+<div id="Xsearch"><i class="fa fa-close"></i></div>
+</div>
+<div class="small-4 columns menu-icon" id="MDCMobileTopNavButtons">
+<a href="/db/favoritepeople"><i class="fa fa-heart"></i></a>
+</div>
+</div>
+</li>
+<li class="left-off-canvas-toggle menu-icon hide-for-large-up"><a href="#"><i class="fa fa-bars"></i></a></li>
+</ul>
+
+<section class="top-bar-section">
+<!-- Left Nav Section -->
+<ul class="right show-for-large-up">
+<li class="top-bar-nodropdown top-bar-upload">
+<a href="https://models.com/db/favoritepeople"><i class="fa fa-heart"></i></a>
+</li>
+<li class="has-dropdown mdcabout show-for-large-up not-click" id="mdcTopNavMenuItemAbout">
+<a href="#"><i class="fa fa-bars mdcTopNavMenui"></i></a>
+<ul class="dropdown mdcabout"><li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li>
+<li class="mdcaboutacct">
+Ian Ding / 
+dxj0623@163.com
+</li>
+<li class="divider"></li>
+<li><a href="//models.com/account/"><i class="fa fa-id-card-o fa-fw"></i> Dashboard</a></li>
+<li><a href="//models.com/account/favorites/favorites.cfm"><i class="fa fa-heart fa-fw"></i> Favorites</a></li>
+<li><a href="//models.com/account/settings/edit_info.cfm"><i class="fa fa-gears fa-fw"></i> Settings</a></li>
+<li class="divider"></li>
+<li><a href="?logout" class=""><i class="fa fa-sign-out fa-fw"></i> Log out</a></li>
+<li class="divider"></li>
+<li><a href="https://models.com/company/masthead.html">Masthead</a></li>
+<li><a href="https://models.com/oftheminute/?page_id=86880"> Help</a></li>
+<li><a href="https://models.com/feedback/feedback.html">Contact us</a></li>
+<li><a href="https://models.com/company/privacy.html">Privacy</a></li>
+<li><a href="https://models.com/company/copyright.html">Copyright</a></li>
+<li><a href="https://models.com/register/tos.cfm">Terms of Service</a></li>
+<li class="divider"></li>
+<li class="mdcaboutsectionhead">Follow Models.com:</li>
+<li class="socialrowbuttons">
+<a href="https://facebook.com/modelsdotcom" class="mdc-social-fa" title="Facebook"><i class="fa fa-facebook-official top-bar-link"></i></a> <a href="https://instagram.com/modelsdot" class="mdc-social-ig" title="Instagram"><i class="fa fa-instagram top-bar-link"></i></a> <a href="https://twitter.com/models" class="mdc-social-tw" title="Twitter"><i class="fa fa-twitter top-bar-link"></i></a> <a href="https://youtube.com/models" class="mdc-social-yt" title="Youtube"><i class="fa fa-youtube-play top-bar-link"></i></a> <a href="https://www.weibo.com/modelsdotcom" class="mdc-social-wb" title="Weibo"><i class="fa fa-weibo top-bar-link"></i></a>
+</li>
+<li><a href="//models.com/email"><i class="fa fa-envelope-o top-bar-link"></i> Email newsletter</a></li>
+</ul>
+</li>
+</ul>
+<!-- Right Nav Section -->
+<ul class="right show-for-large-up">
+<li class="show-for-large-up top-bar-spacer">
+&nbsp;
+</li>
+<li class="megali">
+<a href="#" data-dropdown="menu-1" id="menu-1-link" data-options="is_hover:true;hover_delay:400;">Rankings</a>
+<div id="menu-1" data-dropdown-content="" class="large f-dropdown content row">
+<div class="row">
+<div class="large-6 columns lsidethumbs">
+<!-- Heading 1 -->	
+<div class="large-12 columns">
+<ul>
+<li><h3>Women</h3></li>
+</ul>
+<h4><a href="//models.com/rankings/ui/Trending">Trending:</a></h4>
+<div id="menu-1-trending-women" class="loadingdiv">
+<i class="fa fa-spinner fa-spin"></i>
+</div>
+</div>
+<div class="large-12 columns">
+<h4><a href="//models.com/rankings/ui/Top50/">Rankings:</a></h4>
+</div>
+<div class="large-6 columns">
+<ul>
+<li><a href="//models.com/mdx/model-of-the-year-awards-2017/">Model of the Year 2017</a></li>
+<li><a href="//models.com/rankings/ui/Trending/">Trending</a></li>
+<li><a href="//models.com/rankings/ui/Legends/">Legends</a></li>
+<li><a href="//models.com/rankings/ui/NewSupers/">New Supers</a></li>
+<li><a href="//models.com/rankings/ui/IndustryIcons/">Industry Icons</a></li>
+<li><a href="//models.com/rankings/ui/MoneyGirls/">The Money Girls</a></li>
+</ul>	
+</div>
+<div class="large-6 columns">
+<ul>
+<li><a href="//models.com/rankings/ui/TopSexiest/">Top Sexiest</a></li>
+<li><a href="//models.com/rankings/ui/Top50/">Top 50 Editorial</a></li>
+<li><a href="//models.com/rankings/ui/TheHotList/">The Hot List</a></li>
+<li><a href="//models.com/rankings/ui/Runway/">Runway</a></li>
+<li><a href="//models.com/rankings/ui/Social/">Social</a></li>
+<li><a href="//models.com/fashionweek/ttnc.html">Top Newcomers</a></li>
+</ul>
+</div>
+</div>
+<div class="large-6 columns rsidethumbs">
+<!-- Heading 2 -->
+<div class="large-12 columns">
+<ul>
+<li><h3>Men</h3></li>
+</ul>
+<h4><a href="/rankings/ui/TrendingMen">Trending:</a></h4>
+<div id="menu-1-trending-men" class="loadingdiv">
+<i class="fa fa-spinner fa-spin"></i>
+</div>
+</div>
+<div class="large-12 columns">
+<h4><a href="//models.com/rankings/ui/Top50Men">Rankings:</a></h4>
+</div>
+<div class="large-6 columns">
+<ul>
+<li><a href="//models.com/mdx/model-of-the-year-awards-2017/">Model of the Year 2017</a></li>
+<li><a href="//models.com/rankings/ui/TrendingMen/">Trending</a></li>
+<li><a href="//models.com/rankings/ui/SupersMen/">Supers</a></li>
+<li><a href="//models.com/rankings/ui/IconsMen">Top Icons Men</a></li>
+<li><a href="//models.com/rankings/ui/MoneyGuys">The Money Guys</a></li>
+</ul>
+</div>
+<div class="large-6 columns">
+<ul>
+<li><a href="//models.com/rankings/ui/SexiestMen">Sexiest Men</a></li>
+<li><a href="//models.com/rankings/ui/Top50Men">Top 50 Editorial Men</a></li>
+<li><a href="//models.com/rankings/ui/TheHotListMen">The Hot List Men</a></li>
+<li><a href="//models.com/rankings/ui/RunwayMen">Runway</a></li>
+<li><a href="//models.com/rankings/ui/SocialMen">Social</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="megali">
+<a href="#" data-dropdown="menu-2" id="menu-2-link" data-options="is_hover:true;hover_delay:400;">News</a> 
+<div id="menu-2" data-dropdown-content="" class="large f-dropdown newsdropdown content row">
+<h4><a href="//models.com/mdx/">MDX Cover Stories:</a></h4>
+<div class="large-12 columns">
+<div id="menu-2-mdx" class="loadingdiv">
+<i class="fa fa-spinner fa-spin"></i>
+</div>
+</div>
+<div class="large-12 columns">
+</div>
+<div class="large-12 columns">
+<div id="menu-2-Latest" class="loadingdiv">
+<i class="fa fa-spinner fa-spin"></i>
+</div>
+</div>
+<div class="large-12 columns">
+<h4 class="newssectionheader"><a href="//models.com/newfaces/">NewFaces:</a></h4>
+<div class="large-12 columns">
+<div id="menu-2-NewFaces" class="loadingdiv">
+<i class="fa fa-spinner fa-spin"></i>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="megali">
+<a href="#" data-dropdown="menu-3" id="menu-3-link" data-options="is_hover:true;hover_delay:400;">Talent</a>
+<div id="menu-3" data-dropdown-content="" class="large f-dropdown content row">
+<div class="large-12 columns">
+<div id="menu-3-talent" class="loadingdiv">
+<i class="fa fa-spinner fa-spin"></i>
+</div>
+</div>
+<div class="large-12 columns newssectionheader">
+<ul class="fullwidthli mdcTopNavFavorites">
+<li><a href="//models.com/db/favoritepeople"><i class="fa fa-heart"></i> Your Favorites</a></li>
+</ul>
+</div>
+<div class="large-12 columns newssectionheader">
+<ul>
+<li><h4>Models:</h4></li>
+</ul>
+</div>
+<div class="large-6 columns">
+<ul>
+<li><a href="//models.com/db/models-women">Female Models</a></li>
+</ul>
+</div>
+<div class="large-6 columns">
+<ul>
+<li><a href="//models.com/db/models-men">Male Models</a></li>
+</ul>
+</div>
+<div class="large-12 columns">
+<ul>
+<li><h4>Industry database:</h4></li>
+</ul>
+</div>
+<div class="large-3 columns">
+<ul>
+<li><a href="//models.com/db/actor">Actors</a></li>
+<li><a href="//models.com/db/art-director">Art Directors</a></li>
+<li><a href="//models.com/db/artist">Artists</a></li>
+<li><a href="//models.com/db/athlete">Athletes</a></li>
+<li><a href="//models.com/db/beauty-editor">Beauty Editors</a></li>
+<li><a href="//models.com/db/blogger">Bloggers</a></li>
+<li><a href="//models.com/db/casting-director">Casting Directors</a></li>
+<li><a href="//models.com/db/choreographer">Choreographers</a></li>
+<li><a href="//models.com/db/composer">Composers</a></li>
+</ul>
+</div>
+<div class="large-3 columns">
+<!-- Heading 2 -->
+<ul>
+<li><a href="//models.com/db/creative-director">Creative Directors</a></li>
+<li><a href="//models.com/db/dancer">Dancers</a></li>
+<li><a href="//models.com/db/designer">Designers</a></li>
+<li><a href="//models.com/db/director">Directors</a></li>
+<li><a href="//models.com/db/dp">Directors of Photography</a></li>
+<li><a href="//models.com/db/editor">Editors</a></li>
+<li><a href="//models.com/db/entertainer">Entertainers</a></li>
+<li><a href="//models.com/db/fashion-editor-stylist">Fashion Editors/Stylists</a></li>
+<li><a href="//models.com/db/groomer">Groomers</a></li>
+</ul>
+</div>
+<div class="large-3 columns">
+<!-- Heading 2 -->
+<ul>
+<li><a href="//models.com/db/hair-colorist">Hair Colorists</a></li>
+<li><a href="//models.com/db/hair-stylist">Hair Stylists</a></li>
+<li><a href="//models.com/db/journalist">Journalists</a></li>
+<li><a href="//models.com/db/makeup-artist">Makeup Artists</a></li>
+<li><a href="//models.com/db/manicurist">Manicurists</a></li>
+<li><a href="//models.com/db/models">Models</a></li>
+<li><a href="//models.com/db/other">Others</a></li>
+<li><a href="//models.com/db/pet">Pets</a></li>
+<li><a href="//models.com/db/photographer">Photographers</a></li>
+</ul>
+</div>
+<div class="large-3 columns">
+<!-- Heading 2 -->
+<ul>
+<li><a href="//models.com/db/producer">Producers</a></li>
+<li><a href="//models.com/db/prop-stylist">Prop Stylists</a></li>
+<li><a href="//models.com/db/retoucher">Retouchers</a></li>
+<li><a href="//models.com/db/set-designer">Set Designers</a></li>
+<li><a href="//models.com/db/sittings-editor">Sittings Editors</a></li>
+<li><a href="//models.com/db/stylists">Stylists</a></li>
+<li><a href="//models.com/db/video-editor">Video Editors</a></li>
+</ul>
+</div>
+<div class="large-12 columns">
+<ul>
+<li><h4>Scouting (unrepresented):</h4></li>
+</ul>
+</div>
+<div class="large-6 columns">
+<!-- Heading 3 -->
+<ul>
+<li><a href="//models.com/search/search.html?maincat=women&amp;search_sr=1&amp;reset=y">Female Models</a></li>
+</ul>
+</div>
+<div class="large-6 columns">
+<!-- Heading 3 -->
+<ul>
+<li><a href="//models.com/search/search.html?maincat=men&amp;search_sr=1&amp;reset=y">Male Models</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li class="megali">
+<a href="#" data-dropdown="menu-4" id="menu-4-link" data-options="is_hover:true;hover_delay:400;">Agencies</a>
+<div id="menu-4" data-dropdown-content="" class="large f-dropdown content row">
+<div class="large-12 columns">
+<div class="large-4 columns">
+<div class="menuAgTiles"><a href="//models.com/agencies/Modeling">Modeling Agencies</a></div>
+</div>
+<div class="large-4 columns">
+<div class="menuAgTiles"><a href="//models.com/agencies/PhotoRep">Creative Talent Agencies</a></div>
+</div>
+<div class="large-4 columns">
+<div class="menuAgTiles"><a href="//models.com/agencies/Production">Production Services</a></div>
+</div>
+</div>
+<div class="large-12 columns">
+<ul>
+<li><h4>Agency News:</h4></li>
+</ul>
+</div>
+<div class="large-12 columns">
+<div id="menu-4-Showpackages" class="loadingdiv">
+<i class="fa fa-spinner fa-spin"></i>
+</div>
+</div>
+<div class="large-12 columns">
+<ul class="fullwidthli">
+<li><a href="//models.com/fashionweek/showpackages.html"><h4>View all Show Packages</h4></a></li>
+<li><a href="//models.com//blogroll/"><h4>Agencies Blogroll</h4></a></li>
+</ul>
+</div>
+</div>
+</li>
+<li class="megali">
+<a href="#" data-dropdown="menu-6" id="menu-6-link" data-options="is_hover:true;hover_delay:400;">Database</a>
+<div id="menu-6" data-dropdown-content="" class="large f-dropdown content row">
+<div class="large-12 columns newssectionheader">
+<ul>
+<h4><a href="/feed/">Featured Campaign &amp; Editorial News: <i class="fa fa-caret-right" aria-hidden="true"></i></a></h4>
+</ul>
+</div>
+<div class="large-12 columns">
+<div id="menu-6-Featured" class="loadingdiv">
+<i class="fa fa-spinner fa-spin"></i>
+</div>
+</div>
+<div class="large-6 columns lsidethumbs newssectionheader">
+<div id="menu-6-Advertising">
+<div class="row topnav-db-nav-header">
+<h4>Advertising</h4>
+<i class="fa fa-spinner fa-spin"></i>
+</div>
+</div>
+<div id="menu-6-Editorials">
+<div class="row topnav-db-nav-header">
+<h4>Editorials</h4>
+<i class="fa fa-spinner fa-spin"></i>
+</div>
+</div>
+<div id="menu-6-Polaroids">
+<div class="row topnav-db-nav-header">
+<h4>Polaroids</h4>
+<i class="fa fa-spinner fa-spin"></i>
+</div>
+</div>
+</div>
+<div class="large-6 columns rsidethumbs newssectionheader">
+<div id="menu-6-Covers">
+<div class="row topnav-db-nav-header">
+<h4>Magazine Covers</h4>
+<i class="fa fa-spinner fa-spin"></i>
+</div>
+</div>
+<div id="menu-6-Lookbooks">
+<div class="row topnav-db-nav-header">
+<h4>Lookbooks</h4>
+<i class="fa fa-spinner fa-spin"></i>
+</div>
+</div>
+<div id="menu-6-Videos">
+<div class="row topnav-db-nav-header">
+<h4>Videos</h4>
+<i class="fa fa-spinner fa-spin"></i>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="search has-form">
+<div class="row">
+<div class="large-12 columns mdcTopNavSearchDiv">
+<input type="text" id="tSearch" name="keywords" placeholder="search" tabindex="1" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+<div class="Qsearch"><i class="fa fa-search"></i></div>
+<div id="lXsearch"><i class="fa fa-close"></i></div>
+</div>
+</div>
+<div class="row">
+<div class="large-12 columns"><span id="AS_ResultsHolder"></span></div>
+</div>
+<script type="text/javascript">
+var options = {
+script:"/mdcdb/data/sitesearch16-json.cfm?v=3&",
+varname:"mdcsearch",
+minchars:2,
+maxresults:25,
+delay:250,
+timeout:60000,
+divID:"searchCols",
+spanID:"AS_ResultsHolder",
+callback: function (obj,currVal,iHigh,fldVal) {
+jQuery.ajax({url: '/mdcdb/data/searchLog.cfm?s='+ obj}); 
+document.location='https://models.com/' + obj;
+}
+};
+var as_xml = new bsn.AutoSuggest('tSearch', options);
+</script>
+</li>
+<li class="show-for-large-up top-bar-spacer">
+&nbsp;
+</li>
+</ul>
+</section></nav>
+</div>
+<div class="row hide-for-large-up">
+<div class="small-12 columns"><span id="sAS_ResultsHolder"></span></div>
+</div>
+<script type="text/javascript">
+var options = {
+script:"/mdcdb/data/sitesearch16-json.cfm?v=3&",
+varname:"mdcsearch",
+minchars:2,
+maxresults:25,
+delay:250,
+timeout:60000,
+divID:"searchr",
+spanID:"sAS_ResultsHolder",
+callback: function (obj,currVal,iHigh,fldVal) {
+jQuery.ajax({url: '/mdcdb/data/searchLog.cfm?s='+ obj}); 
+document.location='https://models.com/' + obj;
+}
+};
+var as_xml = new bsn.AutoSuggest('sSearch', options);
+if (!Modernizr.svg) {
+jQuery("img[srcjQuery='.cfm']").each(function() {
+jQuery(this).attr("src", jQuery(this).data("fallback"));
+});
+}
+</script>
+</div>
+<div class="small-12 medium-12 large-12 columns sidenavmaincontentdiv maincontentdiv">
+<script>
+jQuery(document).ready(function() {
+jQuery(".mdcAnnouncmentLink").click(function(event){
+event.preventDefault();
+var originalMsgLink = jQuery(this).attr('href');
+var messageID = jQuery(this).attr("data-msgid");
+var aURL = '/account/notifications/account-notifications/?seenMessageID='+messageID;
+jQuery.ajax({
+url: aURL,
+dataType: "json",
+success: function(data){
+if(data.success){
+window.location.href = originalMsgLink;
+};
+}
+});
+});
+jQuery(".mdcAnnouncementClose").click(function(){
+event.stopPropagation();
+var messageID = jQuery(this).attr("data-msgid");
+var aURL = '/account/notifications/account-notifications/?seenMessageID='+messageID;
+jQuery.ajax({
+url: aURL,
+dataType: "json",
+success: function(data){
+if(data.success){
+jQuery(".mdcAccountAnnouncement").hide();
+};
+}
+});
+});
+});
+</script>	
+<style>
+.mdcAnnouncementClose:hover {cursor: pointer;}
+</style>
+<div class="mdcAccountAlert">
+<div class="mdcAccountWarning"><a href="https://models.com/account/settings" class="mdcAlertLink" data-msgid="1"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Please confirm your email is dxj0623@163.com</a></div>
+</div>
+<div class="mdcAccountAlert invisibleSpacer">
+<div class="mdcAccountWarning"><a href="https://models.com/account/settings" class="mdcAlertLink" data-msgid="1"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Please confirm your email is dxj0623@163.com</a></div>
+</div>
+<script src="/js/jscroll2.3.9.js"></script>
+<script type="text/javascript">
+$(window).load(function(){
+var rollcall=$("#infinite-rollcall").val();
+var campaignType=$("#infinite-campaignType").val();
+var currentSet=$("#infinite-currentSet").val();
+var pageOffset=$("#infinite-pageOffset").val();
+var searchScope=$("#infinite-searchScope").val();
+var mustContainVideos=$("#infinite-mustContainVideos").val();
+var urlString =	'<a href=/db/advertising/?firstTime=1'+
+'&rollcall='+rollcall+
+'&campaignType='+campaignType+
+'&currentSet='+currentSet+
+'&pageOffset='+pageOffset+
+'&searchScope='+searchScope+
+'&mustContainVideos='+mustContainVideos+
+'>next page</a>';
+var htmlVal = $(urlString);
+$('.socialScroll').append(htmlVal).jscroll({
+callback:getThisSet
+// debug:true,
+// autoTrigger:false
+});
+});	
+function getThisSet(){
+$(".saveWorkSet").click(function(event){
+event.preventDefault();
+$('#infinite-pageOffset').val($(this).attr('data-pageOffset'));
+$('#infinite-currentSet').val($(this).attr('data-currentSet'));
+$('#infinite-currentID').val($(this).closest('.mdcsearchResultsImg').attr('id'));
+window.location.href = $(this).attr('href');
+});
+if ( $('#infinite-currentID').val() != 0 && $('#infinite-pageOffset').val()+$('#infinite-currentSet').val() > 0){
+$("html, body").animate({ scrollTop: ($('#'+$('#infinite-currentID').val()).offset().top) - 140 }, 1000);
+$('#infinite-currentID').val(0);
+$('#refreshWorkList').removeClass('hide');
+};
+};
+$( document ).ready(function() {
+$(".genderbox").click(function() {
+$("#mdcsearchResultsDiv").addClass("mdcsearchHalfOpacity");
+});
+$("#AllContentandVideo").click(function() {	
+$("#mustContainVideoFormElement").attr('value', '0');
+$('#videoCheckForm').submit();
+});
+$("#thisMustContainVideo").click(function() {
+$("#mustContainVideoFormElement").attr('value', '1');
+$('#videoCheckForm').submit();	
+});
+});
+</script>
+<div class="row">
+<div class="small-12 columns dbnewsfeednav" id="searchSwitches">
+<div class="small-5 medium-6 columns" id="searchTypeOfWork">
+<button href="#" data-dropdown="drop1" aria-controls="drop1" aria-expanded="false" class="mdcbutton mdcdropdown capitalize mdcfavdropdown">Advertising <i class="fa fa-caret-down" aria-hidden="true"></i></button><br>
+</div>
+<div class="small-7 medium-6 medium-offset-0 columns end text-right" id="mdcfavvideobuttondiv">
+<form id="videoCheckForm" name="videoOnly" action="" method="post">
+<ul class="button-group mdcfav-button-group toggle" data-toggle="buttons-radio">
+<li>
+<input type="radio" id="AllContentandVideo" name="videoCheck" value="0" data-toggle="button" checked="">
+<label class="button" for="AllContentandVideo">All</label>
+</li>
+<li>
+<input type="radio" id="thisMustContainVideo" name="videoCheck" value="1" data-toggle="button">
+<label class="button mdcvideobuttonlabel" for="thisMustContainVideo"><i class="fa fa-video-camera" aria-hidden="true"></i> Videos</label>
+</li>
+</ul>
+</form>
+</div>
+<ul id="drop1" data-dropdown-content="" class="f-dropdown" aria-hidden="true">
+<li><a href="/db/favoritepeople">Favorite People</a></li>
+<li class="mdcfavdropdownsepar"></li>
+<li><a href="/db/advertising" selected="">Advertising</a></li>
+<li><a href="/db/advertorial">Advertorial</a></li>
+<li><a href="/db/editorial">Editorial</a></li>
+<li><a href="/db/lookbook">Lookbook/Catalog</a></li>
+<li><a href="/db/magazine-cover">Magazine Cover</a></li>
+<li><a href="/db/other">Other</a></li>
+<li><a href="/db/polaroids">Polaroids</a></li>
+<li><a href="/db/shows">Shows</a></li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="dbnewfeednavbg"></div>
+</div> 
+<div id="refreshWorkList" class="row hide">
+<div class="small-12 text-center columns favrefreshrow"><li class="label alert-box radius secondary favrefresh"><span class="favrefreshicon"><a href="/db/advertising"><i class="fa fa-refresh" aria-hidden="true"></i></a></span></li></div>
+</div>
+<div class="row">
+<form id="infiniteData">
+<input id="infinite-rollcall" type="hidden" name="rollcall" value="1">
+<input id="infinite-campaignType" type="hidden" name="campaignType" value="advertising">
+<input id="infinite-currentSet" type="hidden" name="currentSet" value="0">
+<input id="infinite-pageOffset" type="hidden" name="pageOffset" value="0">
+<input id="infinite-searchScope" type="hidden" name="searchScope" value="database">
+<input id="infinite-mustContainVideos" type="hidden" name="mustContainVideos" value="false">
+<input id="infinite-currentID" type="hidden" name="currentID" value="0">
+</form>
+</div>
+<div class="row">
+<div class="socialScroll"><div class="jscroll-inner">
+<div id="startScroll"></div>
+<div class="jscroll-added"><div class="row">
+<div class="small-12 columns" id="mdcsearchResultsDiv">
+<div class="scrollworkset" id="mdcsearchResultsLoadingDiv"><i class="fa fa-spinner fa-spin"></i></div>
+<div id="work001" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-fausto-puglisi-fausto-puglisi-lookbook" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/833571/833571-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="0" href="/work/fausto-puglisi-fausto-puglisi-lookbook"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/work/fausto-puglisi-fausto-puglisi-lookbook" title="Fausto Puglisi lookbook">Fausto Puglisi lookbook</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/client/fausto-puglisi">Fausto Puglisi</a> (Fall/Winter 2018)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/edoardo-pasero">Edoardo Pasero</a></h4>
+<h3>
+</h3><h4>
+Fashion Editor/Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/rebecca-baglini">Rebecca Baglini</a>
+</h4>
+<h4>
+Hair Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/Pierpaolo-Lai">Pierpaolo Lai</a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/models/irka-chiganaeva">Irka Chiganaeva</a>
+</h4>
+<h4>
+Other:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/rebecca-baglini">Rebecca Baglini</a>
+</h4>
+<h4>
+Other:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/irka-chiganaeva">Irka Chiganaeva</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work002" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-fendi-ss18" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/833860/833860-500w.jpg');">
+<a class="saveWorkSet videoPlay" data-currentset="0" data-pageoffset="0" href="/work/fendi-ss18"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/work/fendi-ss18" title="SS18">SS18</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/client/fendi">Fendi</a> (Spring/Summer 2018)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/Ethan-James-Green">Ethan James Green</a></h4>
+<h3>
+</h3><h4>
+Fashion Editor/Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/julian-ganio">Julian Ganio</a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/models/dylan-fender">Dylan Fender</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work003" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-tods-tods-ss-2018" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/833841/833841-500w.jpg');">
+<a class="saveWorkSet videoPlay" data-currentset="0" data-pageoffset="0" href="/work/tods-tods-ss-2018"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/work/tods-tods-ss-2018" title="Tod's S/S 2018">Tod's S/S 2018</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/client/tods">Tod's</a> (Spring/Summer 2018)</h4>
+<h3>
+</h3><h4>
+Dancer:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/Roberto-Bolle">Roberto Bolle</a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/models/kendall-jenner">Kendall Jenner</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work004" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-brioni-brioni-ss-18-campaign" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/833325/833325-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="0" href="/work/brioni-brioni-ss-18-campaign"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/work/brioni-brioni-ss-18-campaign" title="Brioni S/S 18 Campaign">Brioni S/S 18 Campaign</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/client/brioni">Brioni</a> (Spring/Summer 2018)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/Greg-Harris">Gregory Harris</a></h4>
+<h3>
+</h3><h4>
+Actor:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/harvey-keitel">Harvey Keitel</a>
+</h4>
+<h4>
+Fashion Editor/Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/jason-rider">Jason Rider</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work005" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-carven-carven-ss18" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/832173/832173-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="0" href="/work/carven-carven-ss18"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/work/carven-carven-ss18" title="Carven S/S 18">Carven S/S 18</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/client/carven">Carven</a> (Spring/Summer 2018)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/jack-davison">Jack Davison</a></h4>
+<h3>
+</h3><h4>
+Fashion Editor/Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/Elodie-David-Touboul">Elodie David Touboul</a>
+</h4>
+<h4>
+Hair Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/luke-hersheson">Luke Hersheson</a>
+</h4>
+<h4>
+Makeup Artist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/lotten-holmqvist">Lotten Holmqvist</a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/models/olympia-campbell">Olympia Campbell</a>
+</h4>
+<h4>
+Set Designer:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/sylvain-cabouat">Sylvain Cabouat</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work006" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-various-campaigns-migaino-spring-2018-campaign" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/831225/831225-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="0" href="/work/various-campaigns-migaino-spring-2018-campaign"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/work/various-campaigns-migaino-spring-2018-campaign" title="Migaino Spring 2018 campaign">Migaino Spring 2018 campaign</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/client/campaign">Various Campaigns</a> (Spring 2018)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/riccardo-dubitante">Riccardo Dubitante</a></h4>
+<h3>
+</h3><h4>
+Art Director:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/Marco-Braga-and-Giuliano-Federico">Marco Braga and Giuliano Federico</a>
+</h4>
+<h4>
+Fashion Editor/Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/ozge-efek">Özge Efek</a>
+</h4>
+<h4>
+Hair Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/roberto-pagnini">Roberto Pagnini</a>
+</h4>
+<h4>
+Makeup Artist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/roberto-pagnini">Roberto Pagnini</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work007" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-marc-jacobs-marc-jacobs-beauty-spring-2018" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/830916/830916-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="0" href="/work/marc-jacobs-marc-jacobs-beauty-spring-2018"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/work/marc-jacobs-marc-jacobs-beauty-spring-2018" title="Marc Jacobs Beauty Spring 2018">Marc Jacobs Beauty Spring 2018</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/client/marc-jacobs">Marc Jacobs</a> (Spring 2018)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/liz-collins">Liz Collins</a></h4>
+<h3>
+</h3><h4>
+Designer:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/marc-jacobs">Marc Jacobs</a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/models/kaia-gerber">Kaia Gerber</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work008" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-hm-autumn-update" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/833914/833914-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="0" href="/work/hm-autumn-update"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/work/hm-autumn-update" title="Autumn Update">Autumn Update</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/client/hm">H&amp;M</a> (Fall/Winter 2017)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/matthew-brookes">Matthew Brookes</a></h4>
+<h3>
+</h3><h4>
+Art Director:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/niklas-johansson">Niklas Johansson</a>
+</h4>
+<h4>
+Fashion Editor/Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/Isabelle-Thiry">Isabelle Thiry</a>
+</h4>
+<h4>
+Hair Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/rolando-beauchamp">Rolando Beauchamp</a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/models/thibaud-charon">Thibaud Charon</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work009" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-valentino-valentino-donna-noir-absolu-fragrance" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/833310/833310-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="0" href="/work/valentino-valentino-donna-noir-absolu-fragrance"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/work/valentino-valentino-donna-noir-absolu-fragrance" title="Valentino Donna Noir Absolu Fragrance 2017">Valentino Donna Noir Absolu Fragranc ...</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/client/valentino">Valentino</a> (Fall/Winter 2017)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/Alasdair-McLellan">Alasdair McLellan</a></h4>
+<h3>
+</h3><h4>
+Fashion Editor/Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/benjamin-bruno">Benjamin Bruno</a>
+</h4>
+<h4>
+Hair Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/anthony-turner">Anthony Turner</a>
+</h4>
+<h4>
+Makeup Artist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/people/lisa-butler">Lisa Butler</a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="0" href="/models/maartje-verhoef">Maartje Verhoef</a>
+</h4>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><div class="jscroll-added"><div class="row">
+<div class="small-12 columns" id="mdcsearchResultsDiv">
+<div class="scrollworkset" id="mdcsearchResultsLoadingDiv"><i class="fa fa-spinner fa-spin"></i></div>
+<div id="work091" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-twinset-twinset-lingerie-fw-2017" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/830908/830908-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="9" href="/work/twinset-twinset-lingerie-fw-2017"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/work/twinset-twinset-lingerie-fw-2017" title="Twinset Lingerie F/W 2017">Twinset Lingerie F/W 2017</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/client/twin-set">Twinset</a> (Fall/Winter 2017)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/people/giampaolo-sgura">Giampaolo Sgura</a></h4>
+<h3>
+</h3><h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/models/hailey-clauson">Hailey Clauson</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work092" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-various-campaigns-nili-lotan-fw-2017" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/830889/830889-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="9" href="/work/various-campaigns-nili-lotan-fw-2017"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/work/various-campaigns-nili-lotan-fw-2017" title="Nili Lotan F/W 2017">Nili Lotan F/W 2017</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/client/campaign">Various Campaigns</a> (Fall/Winter 2017)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/people/Inez-van-Lamsweerde-and-Vinoodh-Matadin">Inez and Vinoodh</a></h4>
+<h3>
+</h3><h4>
+Artist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/people/conie-vallese">Conie Vallese</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work093" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-various-campaigns-douglas-christmas-worldwide-campaign" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/831450/831450-500w.jpg');">
+<a class="saveWorkSet videoPlay" data-currentset="0" data-pageoffset="9" href="/work/various-campaigns-douglas-christmas-worldwide-campaign"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/work/various-campaigns-douglas-christmas-worldwide-campaign" title="DOUGLAS CHRISTMAS 2017 WORLDWIDE CAMPAIGN">DOUGLAS CHRISTMAS 2017 WORLDWIDE CAM ...</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/client/campaign">Various Campaigns</a> (Fall/Winter 2017)</h4>
+<h3>
+</h3><h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/models/maddie-kulicka">Maddie Kulicka</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work094" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-various-campaigns-evening" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2017/12/811347/811347-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="9" href="/work/various-campaigns-evening"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/work/various-campaigns-evening" title="Evening F/W 17">Evening F/W 17</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/client/campaign">Various Campaigns</a> (Fall/Winter 2017)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/people/zeng-wu">Zeng Wu</a></h4>
+<h3>
+</h3><h4>
+Fashion Editor/Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/people/fan-qiong">Fan Qiong</a>
+</h4>
+<h4>
+Hair Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/people/minghu-zhang">MingHu Zhang</a>
+</h4>
+<h4>
+Makeup Artist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/people/xin-miao">Xin Miao</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work095" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer noimage">
+<div id="qtip-loewe-loewe-fw-2018" class="favDivImgContainer" style="background-image:url('none');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="9" href="/work/loewe-loewe-fw-2018"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/work/loewe-loewe-fw-2018" title="Loewe F/W 2018">Loewe F/W 2018</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/client/loewe">Loewe</a> (January 2018)</h4>
+<h3>
+</h3>
+</div>
+</div>
+</div>
+<div id="work096" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-clinique-marimekko-pop-splash-lip-gloss-campaign" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/833719/833719-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="9" href="/work/clinique-marimekko-pop-splash-lip-gloss-campaign"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/work/clinique-marimekko-pop-splash-lip-gloss-campaign" title="Marimekko Pop Splash Lip Gloss Campaign">Marimekko Pop Splash Lip Gloss Campaign</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/client/clinique">Clinique</a> (January 2018)</h4>
+<h3>
+</h3><h4>
+Makeup Artist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/people/deanna-melluso">Deanna Melluso</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work097" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-ralph-lauren-ralph-lauren-pre-spring-2018" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/833306/833306-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="9" href="/work/ralph-lauren-ralph-lauren-pre-spring-2018"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/work/ralph-lauren-ralph-lauren-pre-spring-2018" title="Ralph Lauren Pre-Spring 2018">Ralph Lauren Pre-Spring 2018</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/client/ralph-lauren">Ralph Lauren</a> (January 2018)</h4>
+<h3>
+</h3><h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/models/maartje-verhoef">Maartje Verhoef</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work098" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-pomellato-pomellato-eyewear" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/833099/833099-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="9" href="/work/pomellato-pomellato-eyewear"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/work/pomellato-pomellato-eyewear" title="Pomellato Eyewear">Pomellato Eyewear</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/client/pomellato">Pomellato</a> (January 2018)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/people/alberto-zanetti">Alberto Zanetti</a></h4>
+<h3>
+</h3><h4>
+Fashion Editor/Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/people/aurora-sansone">Aurora Sansone</a>
+</h4>
+<h4>
+Hair Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/people/davide-diodovich">Davide Diodovich</a>
+</h4>
+<h4>
+Makeup Artist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/people/jessica-nedza">Jessica Nedza</a>
+</h4>
+<h4>
+Manicurist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/people/annarel-innocente">Annarel Innocente</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work099" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-le-silla-le-silla-by-francesco-merlini" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/832947/832947-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="9" href="/work/le-silla-le-silla-by-francesco-merlini"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/work/le-silla-le-silla-by-francesco-merlini" title="LE SILLA by Francesco Merlini">LE SILLA by Francesco Merlini</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/client/le-silla">Le Silla</a> (January 2018)</h4>
+<h3>
+</h3><h4>
+Fashion Editor/Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="9" href="/people/michela-caprera">Michela Caprera</a>
+</h4>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><div class="jscroll-added"><div class="row">
+<div class="small-12 columns" id="mdcsearchResultsDiv">
+<div class="scrollworkset" id="mdcsearchResultsLoadingDiv"><i class="fa fa-spinner fa-spin"></i></div>
+<div id="work0181" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-helmut-lang-helmut-lang-fans-seen-by-exactitudes" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/831027/831027-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="18" href="/work/helmut-lang-helmut-lang-fans-seen-by-exactitudes"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/work/helmut-lang-helmut-lang-fans-seen-by-exactitudes" title="Helmut Lang fans seen by Exactitudes">Helmut Lang fans seen by Exactitudes</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/client/helmut-lang">Helmut Lang</a> (January 2018)</h4>
+<h3>
+</h3><h4>
+Entertainer:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/people/kanye-west">Kanye West</a>
+</h4>
+<h4>
+Entertainer:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/people/solange-knowles">Solange Knowles</a>
+</h4>
+<h4>
+Fashion Editor/Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/people/alison-marie-isbell">Alison Marie Isbell</a>
+</h4>
+<h4>
+Groomer:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/people/timothy-aylward">Timothy Aylward</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work0182" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-anna-sui-anna-sui-winter-2017" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/830351/830351-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="18" href="/work/anna-sui-anna-sui-winter-2017"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/work/anna-sui-anna-sui-winter-2017" title="Anna Sui Winter 2017">Anna Sui Winter 2017</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/client/anna-sui">Anna Sui</a> (Winter 2017)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/people/kt-auleta">KT Auleta</a></h4>
+<h3>
+</h3><h4>
+Art Director:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/people/jun-shiina">Jun Shiina</a>
+</h4>
+<h4>
+Hair Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/people/Jordan-Sparkes">Jordan Sparkes</a>
+</h4>
+<h4>
+Makeup Artist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/people/yumi-lee">Yumi Lee</a>
+</h4>
+<h4>
+Manicurist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/people/nori-y">Nori (manicurist)</a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/models/mariana-zaragoza">Mariana Zaragoza</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work0183" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-various-campaigns-dissona-by-angelo-lamparelli" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2017/12/818575/818575-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="18" href="/work/various-campaigns-dissona-by-angelo-lamparelli"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/work/various-campaigns-dissona-by-angelo-lamparelli" title="Dissona by Angelo Lamparelli">Dissona by Angelo Lamparelli</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/client/campaign">Various Campaigns</a> (December 2017)</h4>
+<h3>
+</h3><h4>
+Fashion Editor/Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/people/ozge-efek">Özge Efek</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work0184" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-various-campaigns-labiostethique-campaign" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/833438/833438-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="18" href="/work/various-campaigns-labiostethique-campaign"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/work/various-campaigns-labiostethique-campaign" title="LaBiostethique Campaign Fall 2017">LaBiostethique Campaign Fall 2017</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/client/campaign">Various Campaigns</a> (October 2017)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/people/philip-gay">Philip Gay</a></h4>
+<h3>
+</h3><h4>
+Fashion Editor/Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/people/beln-casadevall">Belén Casadevall</a>
+</h4>
+<h4>
+Hair Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/people/sebastien-richard">Sebastien Richard</a>
+</h4>
+<h4>
+Makeup Artist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/people/steffen-zoll">Steffen Zoll</a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/models/Eniko-Mihalik">Eniko Mihalik</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work0185" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-hm-season-start" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/833918/833918-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="18" href="/work/hm-season-start"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/work/hm-season-start" title="Season Start">Season Start</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/client/hm">H&amp;M</a> (September 2017)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/people/ward-ivan-rafik">Ward Ivan Rafik</a></h4>
+<h3>
+</h3><h4>
+Fashion Editor/Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/people/Isabelle-Thiry">Isabelle Thiry</a>
+</h4>
+<h4>
+Hair Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/people/kalle-eklund">Kalle Eklund</a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/models/elias-de-poot">Elias de Poot</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work0186" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-agnona-agnona-fw-2018" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/833122/833122-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="18" href="/work/agnona-agnona-fw-2018"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/work/agnona-agnona-fw-2018" title="Agnona F/W 2018">Agnona F/W 2018</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/client/agnona">AGNONA</a> (September 2017)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/people/alberto-zanetti">Alberto Zanetti</a></h4>
+<h3>
+</h3><h4>
+Fashion Editor/Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/people/venetia-scott">Venetia Scott</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work0187" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-thomas-wylde-thomas-wylde" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/833287/833287-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="18" href="/work/thomas-wylde-thomas-wylde"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/work/thomas-wylde-thomas-wylde" title="Thomas Wylde F/W 16">Thomas Wylde F/W 16</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/client/thomas-wylde">Thomas Wylde</a> (Fall/Winter 2016)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/people/michele-laurita-wickman">Michele Laurita</a></h4>
+<h3>
+</h3><h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/models/Lisa-Verberght">Lisa Verberght</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work0188" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-bally-bally-handbags" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/833280/833280-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="18" href="/work/bally-bally-handbags"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/work/bally-bally-handbags" title="Bally Handbags 2016">Bally Handbags 2016</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/client/bally">Bally</a> (Summer 2016)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/people/michele-laurita-wickman">Michele Laurita</a></h4>
+<h3>
+</h3>
+</div>
+</div>
+</div>
+<div id="work0189" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-hm-hm-fw-2002-campaign" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/828511/828511-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="18" href="/work/hm-hm-fw-2002-campaign"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/work/hm-hm-fw-2002-campaign" title="H&amp;M F/W 2002 Campaign">H&amp;M F/W 2002 Campaign</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/client/hm">H&amp;M</a> (Fall/Winter 2002)</h4>
+<h3>
+</h3><h4>
+Art Director:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/people/alex-wiederin">Alex Wiederin</a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="18" href="/models/stephanie-seymour">Stephanie Seymour</a>
+</h4>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><div class="jscroll-added"><div class="row">
+<div class="small-12 columns" id="mdcsearchResultsDiv">
+<div class="scrollworkset" id="mdcsearchResultsLoadingDiv"><i class="fa fa-spinner fa-spin"></i></div>
+<div id="work0271" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-jigsaw-jigsaw-fw-2001" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/828520/828520-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="27" href="/work/jigsaw-jigsaw-fw-2001"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/work/jigsaw-jigsaw-fw-2001" title="Jigsaw F/W 2001">Jigsaw F/W 2001</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/client/jigsaw">Jigsaw</a> (Fall/Winter 2001)</h4>
+<h3>
+</h3><h4>
+Art Director:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/people/alex-wiederin">Alex Wiederin</a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/models/Natalia-Vodianova">Natalia Vodianova</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work0272" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-emanuel-ungaro-emanuel-ungaro-ss-2001-campaign" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/828499/828499-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="27" href="/work/emanuel-ungaro-emanuel-ungaro-ss-2001-campaign"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/work/emanuel-ungaro-emanuel-ungaro-ss-2001-campaign" title="Emanuel Ungaro S/S 2001 Campaign">Emanuel Ungaro S/S 2001 Campaign</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/client/emanuel-ungaro">Emanuel Ungaro</a> (Spring/Summer 2001)</h4>
+<h3>
+</h3><h4>
+Art Director:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/people/alex-wiederin">Alex Wiederin</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work0273" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-givenchy-givenchy-fw-2000-campaign" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/828507/828507-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="27" href="/work/givenchy-givenchy-fw-2000-campaign"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/work/givenchy-givenchy-fw-2000-campaign" title="Givenchy F/W 2000 Campaign">Givenchy F/W 2000 Campaign</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/client/givenchy">Givenchy</a> (Fall/Winter 2000)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/people/david-sims">David Sims</a></h4>
+<h3>
+</h3><h4>
+Art Director:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/people/alex-wiederin">Alex Wiederin</a>
+</h4>
+<h4>
+Designer:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/people/alexander-mcqueen">Alexander McQueen</a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/models/Gisele-Bundchen">Gisele Bündchen</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work0274" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-versace-versace-ss-2000" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/828424/828424-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="27" href="/work/versace-versace-ss-2000"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/work/versace-versace-ss-2000" title="Versace S/S 2000">Versace S/S 2000</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/client/versace">Versace</a> (Spring/Summer 2000)</h4>
+<h3>
+</h3><h4>
+Art Director:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/people/alex-wiederin">Alex Wiederin</a>
+</h4>
+<h4>
+Designer:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/people/donatella-versace">Donatella Versace</a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/models/delfine-bafort">Delfine Bafort</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work0275" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-hugo-boss-hugo-ss-2018" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/833162/833162-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="27" href="/work/hugo-boss-hugo-ss-2018"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/work/hugo-boss-hugo-ss-2018" title="HUGO S/S 2018">HUGO S/S 2018</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/client/hugo-boss">Hugo Boss</a> (Spring/Summer 2018)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/people/harley-weir">Harley Weir</a></h4>
+<h3>
+</h3><h4>
+Fashion Editor/Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/people/vanessa-reid">Vanessa Reid</a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/models/Zhengyang-Zhang">Zhengyang Zhang</a>
+</h4>
+<h4>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/models/selena-forrest">Selena Forrest</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work0276" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-corneliani-spring-summer-2018" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/833151/833151-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="27" href="/work/corneliani-spring-summer-2018"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/work/corneliani-spring-summer-2018" title="Spring Summer 2018">Spring Summer 2018</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/client/corneliani">Corneliani</a> (Spring/Summer 2018)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/people/daniel-riera">Daniel Riera</a></h4>
+<h3>
+</h3><h4>
+Art Director:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/people/pablo-arroyo">Pablo Arroyo</a>
+</h4>
+<h4>
+Casting Director:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/people/isadora-banaudi">Isadora Banaudi</a>
+</h4>
+<h4>
+Fashion Editor/Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/people/Jerome-Andre">Jérôme André</a>
+</h4>
+<h4>
+Hair Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/people/franco-argento">Franco Argento</a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/models/kit-butler">Kit Butler</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work0277" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-hugo-boss-boss-bodywear-campaign-1" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/833314/833314-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="27" href="/work/hugo-boss-boss-bodywear-campaign-1"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/work/hugo-boss-boss-bodywear-campaign-1" title="BOSS Bodywear Campaign">BOSS Bodywear Campaign</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/client/hugo-boss">Hugo Boss</a> (Winter 2017)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/people/Luigi-and-Iango">Luigi &amp; Iango</a></h4>
+<h3>
+</h3><h4>
+Fashion Editor/Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/people/tom-van-dorpe">Tom Van Dorpe</a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/models/stefan-pollmann">Stefan Pollmann</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work0278" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-loreal-xtreme-resist-xfiber-mascara" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/833150/833150-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="27" href="/work/loreal-xtreme-resist-xfiber-mascara"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/work/loreal-xtreme-resist-xfiber-mascara" title="Xtreme Resist XFiber Mascara">Xtreme Resist XFiber Mascara</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/client/loreal">L'Oreal</a> (Fall 2017)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/people/kenneth-willardt">Kenneth Willardt</a></h4>
+<h3>
+</h3><h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/models/barbara-palvin">Barbara Palvin</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work0279" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-target-gwen-stefani" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/833283/833283-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="27" href="/work/target-gwen-stefani"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/work/target-gwen-stefani" title="Target Spring 2010- Gwen Stefani">Target Spring 2010- Gwen Stefani</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/client/target">Target</a> (Spring 2010)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/people/michele-laurita-wickman">Michele Laurita</a></h4>
+<h3>
+</h3><h4>
+Entertainer:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="27" href="/people/gwen-stefani">Gwen Stefani</a>
+</h4>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><div class="jscroll-added"><div class="row">
+<div class="small-12 columns" id="mdcsearchResultsDiv">
+<div class="scrollworkset" id="mdcsearchResultsLoadingDiv"><i class="fa fa-spinner fa-spin"></i></div>
+<div id="work0361" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer noimage">
+<div id="qtip-neiman-marcus-rosalina-lydster" class="favDivImgContainer" style="background-image:url('none');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="36" href="/work/neiman-marcus-rosalina-lydster"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/work/neiman-marcus-rosalina-lydster" title="Rosalina Lydster">Rosalina Lydster</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/client/neiman-marcus">Neiman Marcus</a> (Spring 2007)</h4>
+<h3>
+</h3>
+</div>
+</div>
+</div>
+<div id="work0362" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-emilio-pucci-advertising-campaign-ss-2018" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/832512/832512-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="36" href="/work/emilio-pucci-advertising-campaign-ss-2018"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/work/emilio-pucci-advertising-campaign-ss-2018" title="Emilio Pucci S/S 2018">Emilio Pucci S/S 2018</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/client/emilio-pucci">Emilio Pucci</a> (Spring/Summer 2018)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/mel-bles">Mel Bles</a></h4>
+<h3>
+</h3><h4>
+Fashion Editor/Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/beln-casadevall">Belén Casadevall</a>
+</h4>
+<h4>
+Hair Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/Karim-Belghiran">Karim Belghiran</a>
+</h4>
+<h4>
+Makeup Artist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/marie-duhart">Marie Duhart</a>
+</h4>
+<h4>
+Manicurist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/alexandra-janowski">Alexandra Janowski</a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/models/valery-kaufman">Valery Kaufman</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work0363" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-churchs-spring-summer-2018-campaign" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/832083/832083-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="36" href="/work/churchs-spring-summer-2018-campaign"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/work/churchs-spring-summer-2018-campaign" title="Church's Spring Summer 2018 Campaign">Church's Spring Summer 2018 Campaign</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/client/churchs">Church's</a> (Spring/Summer 2018)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/jamie-hawkesworth">Jamie Hawkesworth</a></h4>
+<h3>
+</h3><h4>
+Casting Director:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/Barbara-Nicoli-Leila-Ananna">Barbara Nicoli &amp; Leila Ananna</a>
+</h4>
+<h4>
+Fashion Editor/Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/max-pearmain">Max Pearmain</a>
+</h4>
+<h4>
+Hair Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/gary-gill">Gary Gill</a>
+</h4>
+<h4>
+Makeup Artist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/dick-page">Dick Page</a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/models/Rogier-Bosschaart">Rogier Bosschaart</a>
+</h4>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/work/churchs-spring-summer-2018-campaign" title="Church's Spring Summer 2018 Campaign">more people ...</a>
+
+</div>
+</div>
+</div>
+<div id="work0364" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-estee-lauder-estee-lauder-liquid-envy" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/832271/832271-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="36" href="/work/estee-lauder-estee-lauder-liquid-envy"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/work/estee-lauder-estee-lauder-liquid-envy" title="Estee Lauder Liquid Envy">Estee Lauder Liquid Envy</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/client/estee-lauder">Estee Lauder</a> (Winter 2018)</h4>
+<h3>
+</h3><h4>
+Makeup Artist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/violette">Violette </a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/models/fei-fei-sun">Fei Fei Sun</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work0365" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-eres-eres-ss-2018" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/832302/832302-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="36" href="/work/eres-eres-ss-2018"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/work/eres-eres-ss-2018" title="Eres S/S 2018">Eres S/S 2018</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/client/eres">Eres</a> (Spring/Summer 2018)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/lorenzo-bringheli">Lorenzo Bringheli</a></h4>
+<h3>
+</h3><h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/models/ophelie-guillermand">Ophelie Guillermand</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work0366" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-various-campaigns-projekt-produkt" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/832299/832299-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="36" href="/work/various-campaigns-projekt-produkt"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/work/various-campaigns-projekt-produkt" title="PROJEKT PRODUKT">PROJEKT PRODUKT</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/client/campaign">Various Campaigns</a> (Spring/Summer 2018)</h4>
+<h3>
+</h3><h4>
+Fashion Editor/Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/Kevin-Kim">Kevin Kim</a>
+</h4>
+<h4>
+Hair Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/tomomi-roppongi">Tomomi Roppongi</a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/models/hugh-burry">Hugh Burry</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work0367" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-missoni-m-missoni-ss-2018" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/832056/832056-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="36" href="/work/missoni-m-missoni-ss-2018"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/work/missoni-m-missoni-ss-2018" title="M Missoni S/S 2018">M Missoni S/S 2018</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/client/missoni">Missoni</a> (Spring/Summer 2018)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/mel-bles">Mel Bles</a></h4>
+<h3>
+</h3><h4>
+Fashion Editor/Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/vanessa-reid">Vanessa Reid</a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/models/emm-arruda">Emm Arruda</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work0368" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-balmain-balmain---springsummer-2018-campaign" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/831948/831948-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="36" href="/work/balmain-balmain---springsummer-2018-campaign"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/work/balmain-balmain---springsummer-2018-campaign" title="BALMAIN S/S 2018 CAMPAIGN">BALMAIN S/S 2018 CAMPAIGN</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/client/balmain-">Balmain</a> (Spring/Summer 2018)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/olivier-rousteing">Olivier Rousteing</a></h4>
+<h3>
+</h3><h4>
+Creative Director:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/pascal-dangin">Pascal Dangin</a>
+</h4>
+<h4>
+Designer:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/olivier-rousteing">Olivier Rousteing</a>
+</h4>
+<h4>
+Hair Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/Shon-Ju">Shon </a>
+</h4>
+<h4>
+Makeup Artist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/val-garland">Val Garland</a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/models/valery-kaufman">Valery Kaufman</a>
+</h4>
+
+</div>
+</div>
+</div>
+<div id="work0369" class="small-12 medium-4 columns mdcsearchResultsImg">
+<div class="row itemcontainer">
+<div class="imagecontainer">
+<div id="qtip-sandro-ss2018-campaign" class="favDivImgContainer" style="background-image:url('https://i.mdel.net/i/db/2018/1/831442/831442-500w.jpg');">
+<a class="saveWorkSet " data-currentset="0" data-pageoffset="36" href="/work/sandro-ss2018-campaign"><img src="https://i.mdel.net/i/db/s.gif" border="0"></a>
+</div>
+</div>
+<hr>
+<div class="small-12 medium-12 columns mdcsearchResultsRecord">
+<h2>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/work/sandro-ss2018-campaign" title="Sandro S/S 18">Sandro S/S 18</a>
+</h2>
+<h4>Client: <a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/client/sandro">Sandro</a> (Spring/Summer 2018)</h4>
+<h4>Photographer: <a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/karim-sadli">Karim Sadli</a></h4>
+<h3>
+</h3><h4>
+Art Director:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/franck-durand">Franck Durand</a>
+</h4>
+<h4>
+Fashion Editor/Stylist:
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/people/joe-mckenna">Joe McKenna</a>
+</h4>
+<h4>
+Cast:<br> 
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/models/Rianne-van-Rompaey">Rianne van Rompaey</a>
+</h4>
+<h4>
+<a class="saveWorkSet" data-currentset="0" data-pageoffset="36" href="/models/noah-bunink">Noah Bunink</a>
+</h4>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jscroll-next-parent" style="display: none;">
+<a href="/db/advertising/?firstTime=6&amp;rollcall=1&amp;campaignType=advertising&amp;currentSet=0&amp;pageOffset=45&amp;searchScope=database&amp;mustContainVideos=false">next page</a>
+</div>
+</div></div></div>
+</div>
+<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+</div>
+</div>
+<script src="https://models.com/js/f/511/foundation.delay.js"></script>
+<script>$(document).foundation();</script>
+<script src="https://models.com/account/js/admin.js"></script>
+<div id="backtotop" style="opacity: 0.6944388451958388; display: block;">Top</div>
+<script>
+$(document).ready(function() {
+<!-- BacktoTop -->
+jQuery('#backtotop').click(function(){
+jQuery('html, body').animate({scrollTop: jQuery('body').offset().top}, 1000);
+});
+//js to separate scrolling for sidebar from main window DOES NOT WORK
+// $( "#accountsidebar" ).on( "mouseenter mouseleave", toggleBodyScroll );
+// function toggleBodyScroll(){
+// $("body").toggleClass("showhidescroll");
+// }
+});
+jQuery(window).load(function() {
+//scrolltotop button
+if (jQuery(window).scrollTop() > "200"){
+jQuery("#backtotop").fadeIn("slow")
+}
+var scrollDiv = jQuery("#backtotop");
+jQuery(window).scroll(function(){
+if (jQuery(window).scrollTop() <= "200"){
+jQuery(scrollDiv).fadeOut("slow")
+} else {
+jQuery(scrollDiv).fadeIn("slow")
+}
+});
+});
+</script>
+
+
+</div><div id="dv_mod" style="width:1px;height:1px;position:absolute;left:-9999px;"><strong class="show-for-small-only">&nbsp;</strong>  <strong class="show-for-medium-only">&nbsp;</strong>  <strong class="show-for-large-only">&nbsp;</strong>  <strong class="show-for-xlarge-only">&nbsp;</strong></div></body></html>
