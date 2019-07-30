@@ -16,7 +16,7 @@ print "Initialize"
 #dcap['phantomjs.page.settings.userAgent'] = ('Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36')  #根据需要设置具体的浏览器信息
 #driver = webdriver.PhantomJS(desired_capabilities=dcap)  #封装浏览器信息
 
-def initDriver():
+def initChromeDriver():
     chrome_options = Options()
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--disable-gpu')
@@ -24,7 +24,20 @@ def initDriver():
     chrome_options.add_argument('blink-settings=imagesEnabled=false')
     chrome_options.add_argument('--headless')
     driver = webdriver.Chrome(executable_path='./chromedriver', options=chrome_options)
-    return driver  
+    return driver
+
+
+def initFirefoxDriver():
+    options = webdriver.FirefoxOptions()
+    options.add_argument('-headless')
+
+    geckodriver = './driver/geckodriver'
+    browser = webdriver.Firefox(executable_path=geckodriver, firefox_options=options)
+
+    browser.get('https://www.duckduckgo.com')
+    browser.save_screenshot("screenshots/duck.png")
+    browser.quit()
+
 
 
 def reload(driver):
@@ -113,10 +126,12 @@ def foo(cookies, driver):
 
 
 if __name__ == "__main__":
-    driver = initDriver()
+    initFirefoxDriver()
+
+    # driver = initChromeDriver()
     #dumpCookie()
-    cookies = readCookie()
-    foo(cookies, driver)
+    # cookies = readCookie()
+    # foo(cookies, driver)
     
 
 

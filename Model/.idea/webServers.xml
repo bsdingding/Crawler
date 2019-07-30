@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6b74d9b3-a769-4a48-acc8-0c30a80491be" name="dev83" url="http:///">
+        <fileTransfer host="10.8.55.83" port="22" rootFolder="/data01/home/ian.ianding" accessType="SFTP">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
