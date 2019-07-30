@@ -32,7 +32,7 @@ def initFirefoxDriver():
     options.add_argument('-headless')
 
     geckodriver = './driver/geckodriver'
-    browser = webdriver.Firefox(executable_path=geckodriver, firefox_options=options)
+    browser = webdriver.Firefox(executable_path=geckodriver, firefox_options=options, firefox_binary="./driver/firefox/firefox")
 
     browser.get('https://www.duckduckgo.com')
     browser.save_screenshot("screenshots/duck.png")
