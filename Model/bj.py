@@ -23,21 +23,33 @@ def initChromeDriver():
     chrome_options.add_argument('--hide-scrollbars')
     chrome_options.add_argument('blink-settings=imagesEnabled=false')
     chrome_options.add_argument('--headless')
-    driver = webdriver.Chrome(executable_path='./chromedriver', options=chrome_options)
+    driver = webdriver.Chrome(executable_path='./driver/chromedriver.exe', options=chrome_options)
     return driver
 
 
 def initFirefoxDriver():
     options = webdriver.FirefoxOptions()
-    options.add_argument('-headless')
+    options.add_argument('--headless')
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-gpu')
 
     geckodriver = './driver/geckodriver'
-    browser = webdriver.Firefox(executable_path=geckodriver, firefox_options=options, firefox_binary="./driver/firefox/firefox")
+    browser = webdriver.Firefox(executable_path=geckodriver, firefox_options=options)
 
     browser.get('https://www.duckduckgo.com')
     browser.save_screenshot("screenshots/duck.png")
     browser.quit()
 
+
+def initPhantomJS():
+    dcap = dict(DesiredCapabilities.PHANTOMJS)  #设置useragent
+    dcap['phantomjs.page.settings.userAgent'] = ('Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36')  #根据需要设置具体的浏览器信息
+    driver = webdriver.PhantomJS(desired_capabilities=dcap)  #封装浏览器信息
+    # driver.get("https://www.baidu.com/")
+    # driver.set_page_load_timeout(5)
+    # driver.maximize_window()
+    # driver.save_screenshot("screenShots/Login.png")
+    return driver
 
 
 def retry_get(driver, url, retry=3):
@@ -132,6 +144,7 @@ def clickGift(driver):
 
 def loopwork(cookies, driver):
     driver.get("http://aibjx.org/plugin.php?id=levgift:levgift")
+    driver.save_screenshot("screenshots/login.png")
     #import pdb; pdb.set_trace()
     for cookie in cookies:
         driver.add_cookie({
@@ -139,11 +152,11 @@ def loopwork(cookies, driver):
             "name":cookie,
             "value":cookies[cookie],
             "path":'/',
-            "expires":None
+            "expires": "Fri, 01 Jan 2038 00:00:00 GMT"
         })
     reload(driver)
     #driver.maximize_window()
-    #driver.save_screenshot("screenShots/Login.png")
+    driver.save_screenshot("screenShots/Login1.png")
     
     if driver.current_url == checkinUrl:
         checkin(driver)
@@ -160,19 +173,27 @@ def loopwork(cookies, driver):
     driver.close()
     driver.quit()
 
-
-if __name__ == "__main__":
-    initFirefoxDriver()
-
-    # driver = initChromeDriver()
+def chromeWork():
+    driver = initChromeDriver()
     #dumpCookie()
-<<<<<<< Updated upstream
-    # cookies = readCookie()
-    # foo(cookies, driver)
-=======
     cookies = readCookie()
     loopwork(cookies, driver)
->>>>>>> Stashed changes
+
+
+def phantomJSWork():
+    driver = initPhantomJS()
+    cookies = readCookie()
+    loopwork(cookies, driver)
+
+
+if __name__ == "__main__":
+    # initFirefoxDriver()
+
+    # phantomJSWork()
+    chromeWork()
+
+    
+
     
 
 
