@@ -40,10 +40,22 @@ def initFirefoxDriver():
 
 
 
+def retry_get(driver, url, retry=3):
+    count = 0
+    while count < retry:
+        count += 1
+        try:
+            driver.get(url)
+        except:
+            time.sleep(5)
+            continue
+        return
+
 def reload(driver):
     print "Reloading..."
-    driver.get("http://aibjx.org/plugin.php?id=levgift:levgift")
+    retry_get(driver, "http://aibjx.org/plugin.php?id=levgift:levgift")
     driver.set_page_load_timeout(5)
+    time.sleep(2)
 
 
 def parseTime(timeStr):
@@ -59,6 +71,7 @@ def parseTime(timeStr):
 
 
 url = "http://aibjx.org/plugin.php?id=levgift:levgift"
+checkinUrl = "http://aibjx.org/plugin.php?id=dsu_paulsign:sign"
 
 def dumpCookie():
     driver.get("http://aibjx.org/plugin.php?id=levgift:levgift")
@@ -77,6 +90,17 @@ def dumpCookie():
             return cookies
 
 
+def checkin(driver):
+    smile = driver.find_element_by_id("kx")
+    ActionChainsDriver = ActionChains(driver).click(smile)
+    ActionChainsDriver.perform()
+    time.sleep(2)
+    checkin = driver.find_element_by_class_name("btn")
+    ActionChainsDriver = ActionChains(driver).click(checkin)
+    ActionChainsDriver.perform()
+    time.sleep(10)
+
+
 def readCookie():
     filename = open('Cookie/cookie.pickle', 'rb')
     return pickle.load(filename)
@@ -90,15 +114,23 @@ def clickGift(driver):
             ActionChainsDriver = ActionChains(driver).click(giftElement)
             ActionChainsDriver.perform()
             time.sleep(20)
-            break
+            return
+        
+        if giftElement.text == u'今日已领取':
+            print "Work done today, quit"
+            driver.close()
+            driver.quit()
+            exit(0)
         
         timeLeft = parseTime(giftElement.text)
-        print "Gift is not ready yet, wait {}s, time left: {}".format(timeLeft, giftElement.text)
-        time.sleep(timeLeft)
+        restTime = timeLeft if timeLeft < 300 else 99
+            
+        print "Gift is not ready yet, wait {}s, time left: {}".format(restTime, giftElement.text)
+        time.sleep(restTime)
         reload(driver)
          
 
-def foo(cookies, driver):
+def loopwork(cookies, driver):
     driver.get("http://aibjx.org/plugin.php?id=levgift:levgift")
     #import pdb; pdb.set_trace()
     for cookie in cookies:
@@ -112,6 +144,10 @@ def foo(cookies, driver):
     reload(driver)
     #driver.maximize_window()
     #driver.save_screenshot("screenShots/Login.png")
+    
+    if driver.current_url == checkinUrl:
+        checkin(driver)
+        reload(driver)
     
     count = 0
     while True:
@@ -130,8 +166,13 @@ if __name__ == "__main__":
 
     # driver = initChromeDriver()
     #dumpCookie()
+<<<<<<< Updated upstream
     # cookies = readCookie()
     # foo(cookies, driver)
+=======
+    cookies = readCookie()
+    loopwork(cookies, driver)
+>>>>>>> Stashed changes
     
 
 
