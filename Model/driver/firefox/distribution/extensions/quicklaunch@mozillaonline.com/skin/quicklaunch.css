@@ -1,0 +1,158 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+#quickluanch-addonbar-item {
+  list-style-image: url("chrome://quicklaunch-os/locale/image/toolbarbutton.png");
+}
+#quickluanch-addonbar-item[cui-areatype="menu-panel"],
+toolbarpaletteitem[place="palette"] > #quickluanch-addonbar-item {
+  list-style-image: url("chrome://quicklaunch-os/locale/image/toolbarbutton-32.png");
+}
+#quickluanch-addonbar-item[cui-areatype="toolbar"]:not([overflowedItem=true]):-moz-lwtheme-brighttext {
+  list-style-image: url("chrome://quicklaunch-os/locale/image/toolbarbutton-inverted.png");
+}
+/* should be all osx, but limit to 10.7+ for simplicity */
+@media (-moz-mac-lion-theme) {
+  #quickluanch-addonbar-item:hover:active:not([disabled="true"]):not([cui-areatype="menu-panel"]) {
+    list-style-image: url("chrome://quicklaunch-os/locale/image/toolbarbutton-active.png");
+  }
+  #quickluanch-addonbar-item[cui-areatype="toolbar"]:hover:active:not([disabled="true"]):not([overflowedItem=true]):-moz-lwtheme-brighttext {
+    list-style-image: url("chrome://quicklaunch-os/locale/image/toolbarbutton-inverted-active.png");
+  }
+}
+
+@media (-moz-mac-lion-theme) and (min-resolution: 2dppx) {
+  #quickluanch-addonbar-item {
+    list-style-image: url("chrome://quicklaunch-os/locale/image/toolbarbutton@2x.png");
+  }
+  #quickluanch-addonbar-item[cui-areatype="menu-panel"],
+  toolbarpaletteitem[place="palette"] > #quickluanch-addonbar-item {
+    list-style-image: url("chrome://quicklaunch-os/locale/image/toolbarbutton-32@2x.png");
+  }
+  #quickluanch-addonbar-item[cui-areatype="toolbar"]:not([overflowedItem=true]):-moz-lwtheme-brighttext {
+    list-style-image: url("chrome://quicklaunch-os/locale/image/toolbarbutton-inverted@2x.png");
+  }
+
+  #quickluanch-addonbar-item:hover:active:not([disabled="true"]):not([cui-areatype="menu-panel"]) {
+    list-style-image: url("chrome://quicklaunch-os/locale/image/toolbarbutton-active@2x.png");
+  }
+  #quickluanch-addonbar-item[cui-areatype="toolbar"]:hover:active:not([disabled="true"]):not([overflowedItem=true]):-moz-lwtheme-brighttext {
+    list-style-image: url("chrome://quicklaunch-os/locale/image/toolbarbutton-inverted-active@2x.png");
+  }
+
+  #quickluanch-addonbar-item > .toolbarbutton-icon,
+  #quickluanch-addonbar-item > .toolbarbutton-menubutton-button > .toolbarbutton-icon {
+    width: 16px;
+  }
+}
+
+#quicklaunch-PanelUI-View {
+  width: 192px;
+}
+.quicklaunch-addonbar > .toolbarbutton-icon,
+#quicklaunch-PanelUI-View > toolbarbutton[image] > .toolbarbutton-icon {
+  height: 16px;
+  width: 16px;
+}
+.quicklaunch-addonbar:not([overflowedItem=true]) > .toolbarbutton-icon {
+  height: 24px;
+  width: 32px;
+}
+
+#edit-header .dialogheader-title{
+  margin-bottom:4px !important;
+}
+.quicklaunch-checkbox  .checkbox-icon {
+  width: 16px;
+  height:16px;
+  margin:4px;
+}
+
+.qc-label {
+  border:5px;
+  margin-top:8px;
+  margin-bottom:4px;
+  margin-left:12px;
+}
+.wizard-box{
+  height:200px;
+  width: 500px;
+  padding-top:5px;
+}
+.quicklaunch-add-hbox {
+  height:28px;
+}
+.quicklaunch-checkbox .checkbox-label {
+  margin-top :4px !important;
+  margin-bottom: 4px !important;
+}
+.quicklaunch-checkbox .checkbox-check{
+  margin-left :8px;
+}
+.quicklaunch-checkbox{
+  width:200px;
+  margin-top:0px;
+  margin-bottom:0px;
+  padding-top:1px;
+  padding-bottom:1px;
+}
+.checkbox-label-box{
+  border:0px;
+}
+#buttonconfigaddonbar {
+  -moz-image-region: rect(0px, 24px,  24px, 0px);
+}
+#buttoncustomizequicklaunch {
+  -moz-image-region: rect(0px, 48px,  24px, 24px)
+}
+
+
+#quickLaunchManagerWindow #quicklaunchbox #quicklaunchbuttonbox {
+  margin-bottom: 1px !important;
+  background: #EFEFEF !important;
+  border: none !important;
+}
+
+#quickLaunchManagerWindow #quicklaunchbox #quicklaunchbuttonbox button {
+  -moz-appearance: none !important;
+  max-width: 100% !important;
+  min-width: 0px !important;
+  height: auto !important;
+  margin: 1px !important;
+  border: none !important;
+  background-color: transparent !important;
+  background: none !important;
+  padding: 3px 3px 1px 3px !important;
+  color: #545454 !important;
+  font-weight: bold !important;
+  -moz-user-focus: none !important;
+}
+
+#quickLaunchManagerWindow #quicklaunchbox #quicklaunchbuttonbox button:hover {
+  background-color: #E0E8F6 !important;
+  border: none !important;
+}
+
+#quickLaunchManagerWindow #quicklaunchbox #quicklaunchbuttonbox button[checked="true"] {
+  background-color: #C1D2EE !important;
+  border: none !important;
+}
+
+#quickLaunchManagerWindow #quicklaunchbox #quicklaunchbuttonbox .button-box{
+  background: none !important;
+  padding: 3px 3px 1px 3px !important;
+}
+
+/*lets fix some themes, mainly charamel 1.2 */
+#quickLaunchManagerWindow #quicklaunchbox #quicklaunchbuttonbox button .button-endcap{
+  background: none !important;
+  padding-right: 0px !important;
+  height: auto !important;
+  -moz-box-pack: start !important;
+  -moz-box-align: stretch !important;
+}
+
+#quickLaunchManagerWindow #quicklaunchbox #quicklaunchbuttonbox button .button-body{
+  background: none !important;
+}

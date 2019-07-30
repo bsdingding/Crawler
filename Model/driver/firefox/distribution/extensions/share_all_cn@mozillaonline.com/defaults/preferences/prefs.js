@@ -1,0 +1,2 @@
+pref("extensions.share_all_cn@mozillaonline.com.defaultTool",'qq');      // modified by 20101206, default from "no" to "qq"
+pref("extensions.share_all_cn@mozillaonline.com.manuallyRemovedShareToolButton",false);

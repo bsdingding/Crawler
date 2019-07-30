@@ -1,0 +1,35 @@
+<!ENTITY quicklaunch-label "Firefox 捷徑">
+<!ENTITY quicklaunch-toolTips "Firefox 捷徑">
+<!ENTITY quicklaunch-notepad "記事本">
+<!ENTITY quicklaunch-mspaint "小畫家">
+<!ENTITY quicklaunch-calc "小算盤">
+<!ENTITY quicklaunch-myComputer "我的電腦">
+<!ENTITY quicklaunch-paintWebpage "網頁截圖">
+<!ENTITY quicklaunch-switchProfile "切換使用者設定檔(Profile)">
+<!ENTITY quicklaunch-config "設定">
+<!ENTITY quicklaunch-manageQuickLaunch "個人化Firefox 捷徑">
+<!ENTITY quicklaunch-moreQuickLaunchs "更多捷徑">
+<!ENTITY quickLaunchColoums.image "圖片">
+<!ENTITY quickLaunchColoums.name "名稱">
+<!ENTITY quickLaunchColoums.path "路徑">
+<!ENTITY quickLaunchColoums.arguments "參數">
+<!ENTITY quickLaunchManager.Description "選擇的 Firefox 捷徑會在附加元件列上顯示，您還可以新增、修改或刪除個人化的Firefox 捷徑">
+<!ENTITY quickLaunchManager.title "Firefox 捷徑管理器">
+<!ENTITY newButton.label "新增Firefox 捷徑">
+<!ENTITY newButton.accesskey "N">
+<!ENTITY editButton.label "修改Firefox 捷徑">
+<!ENTITY editButton.accesskey "R">
+<!ENTITY deleteButton.label "刪除Firefox 捷徑">
+<!ENTITY deleteButton.accesskey "D">
+<!ENTITY accept.label "確定">
+<!ENTITY quickLaunchEdit.label "Firefox 捷徑編輯器">
+<!ENTITY quickLaunchEdit.description "請輸入Firefox 捷徑的名稱，路徑和參數">
+<!ENTITY quickLaunchEdit.name "個人化Firefox 捷徑的名稱">
+<!ENTITY quickLaunchEdit.path "個人化Firefox 捷徑的路徑">
+<!ENTITY quickLaunchEdit.arguments "個人化Firefox 捷徑的參數">
+<!ENTITY quickLaunchEdit.browse "瀏覽">
+<!ENTITY quickLaunchEdit.configaddonbar "工具列介面">
+<!ENTITY quickLaunchEdit.customizequicklaunch "個人化捷徑">
+<!ENTITY quickLaunchEdit.addtoaddonbar "新增到工具列">
+<!ENTITY quickLaunchEdit.configaddonbar_label "選擇的 Firefox 捷徑會在工具列上顯示">
+<!ENTITY quickLaunchEdit.customizequicklaunch_label "新增、修改或刪除您個人化的 Firefox 捷徑">

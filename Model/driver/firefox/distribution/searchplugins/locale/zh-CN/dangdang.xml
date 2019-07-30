@@ -1,0 +1,14 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
+<ShortName>当当网</ShortName>
+<Description>当当网搜索</Description>
+<InputEncoding>gb2312</InputEncoding>
+<Image width="16" height="16">data:image/png;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0nAD/dJwA/3ScAP90nAD/dJwA/3ScAP90nAD/dJwA/3ScAP90nAD/dJwA/3ScAP90nAD/dJwA/3ScAP90nAD/dJwA////////////////////////////////////////////////////////////////////////////dJwA/3ScAP//////jq8y/4apIf+Jqyb/iasm/4mrJv+Jqyb/iasm/4mrJv+Kqyf/iasm/4mrLP+owWL//////3ScAP90nAD//////7HHcP+qw2X/rcRn/63EZ/+txGf/rcRn/63EZ/+txGf/r8Vr/6fAXP97oRb/bpgA//////90nAD/dJwA////////////////////////////////////////////////////////////obxU/2qVAP//////dJwA/3ScAP//////x9eX/5CwP/+ZtkP/mbZD/5m2Q/+ZtkP/mbZD/5e1Qf+YtkX/zNmg/6nCYv9slwD//////3ScAP90nAD//////8HTj/+Kqy7/k7I5/5OyOf+Tsjn/k7I5/5OyOf+SsTb/k7E7/8fXmP+owV//bJcA//////90nAD/dJwA///////6+/X/9vjt//b57//2+e//9vnv//b57//2+e//9vnv//f58P/6+/b/pL9a/2qVAP//////dJwA/3ScAP//////qsJj/6G8VP+jvVf/pL5W/6S/WP+pwWL/qcFj/6W/Wv+lvlr/o75W/3+kF/9slwD//////3ScAP90nAD//////5WzPv+NrjD/i6wr/4utKv+GqSD/b5gA/2yWAP+Cphv/i60q/4qsKP+Usjr/mLZB//////90nAD/dJwA///////9/fv/9vjr//7+/v/9/vz/6O/W/4CkFf92nQr/2OO1//7//////v7/+frw//n78///////dJwA/3ScAP//////tMp6/4+wRf/R3av//////+/z4P+ApBb/dZ0L/9vmvP//////4+vL/5m3Uv+kvl7//////3ScAP90nAD//////3ScCP9KfgD/nblN//7+/f/t8t3/fqQV/3OdCf/Z5Lf//////77Rhv9UhQD/Y5AA//////90nAD/dJwA///////G15j/p8Fq/9zmvf//////6/Hb/4KnGv93nw3/2eS4///////q8dj/sMd0/7nNgf//////dJwA/3ScAP///////////////////////////////////////////////////////////////////////////3ScAP90nAD/dJwA/3ScAP90nAD/dJwA/3ScAP90nAD/dJwA/3ScAP90nAD/dJwA/3ScAP90nAD/dJwA/3ScAP90nAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</Image>
+<Url type="text/html" method="GET" template="http://union.dangdang.com/transfer.php">
+	<Param name="engine" value="dangdang_shopping"/>
+	<Param name="from" value="P-292566"/>
+	<Param name="ad_type" value="10"/>
+	<Param name="sys_id" value="1"/>
+	<Param name="backurl" value="http://search.dangdang.com/search.php?key={searchTerms}"/>
+</Url>
+<SearchForm>http://www.dangdang.com/</SearchForm>
+</SearchPlugin>

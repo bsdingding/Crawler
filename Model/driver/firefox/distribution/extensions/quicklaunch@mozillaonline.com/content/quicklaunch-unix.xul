@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!DOCTYPE window SYSTEM "chrome://quicklaunch/locale/quicklaunch.dtd">
+<?xml-stylesheet href="chrome://quicklaunch/skin/quicklaunch.css" type="text/css"?>
+
+<overlay id="quicklaunch"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <panelmultiview id="PanelUI-multiView" mainViewId="PanelUI-mainView">
+    <panelview id="quicklaunch-PanelUI-View" flex="1">
+      <label value="&quicklaunch-label;" class="panel-subview-header"/>
+      <toolbarbutton id="quicklaunch-paintWebpage-button" label="&quicklaunch-paintWebpage;" class="subviewbutton" hidden="true" image="chrome://quicklaunch/skin/image/paintWebpage.png" oncommand="ceQuickLaunch.getScreenShot();"/>
+      <toolbarbutton label="&quicklaunch-switchProfile;" class="subviewbutton" image="chrome://quicklaunch/skin/image/switchProfile.png" oncommand="ceQuickLaunch.toProfileManager();"/>
+    </panelview>
+  </panelmultiview>
+
+  <stringbundleset>
+    <stringbundle id="quicklaunchStrings" src="chrome://quicklaunch/locale/quicklaunch.properties"/>
+  </stringbundleset>
+
+  <script type="application/x-javascript" src="chrome://quicklaunch/content/quicklaunch.js" ></script>
+
+</overlay>

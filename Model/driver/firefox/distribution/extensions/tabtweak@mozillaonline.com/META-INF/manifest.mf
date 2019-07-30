@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: UQWZe2ny60SiPC5lOdx1Rw==
+SHA1-Digest: EusW4psvi79H8t/AVLXnObRT7FY=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7KlvIL7ZuOrBLHZO8x7Z3Q==
+SHA1-Digest: LJzNbP60kJigWvopX8Y15oYyvNA=
+
+Name: icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Sz7oVTYJWFnNab7bVCgEEA==
+SHA1-Digest: eRYSAuzR6i65NgQYJ8yXJcnnuPg=
+
+Name: icon64.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GV4mTIwTdHFeGgtKFWOZkg==
+SHA1-Digest: yxp8GTRXNaDL/BSovIJi9PQeXXc=
+
+Name: components/tabTweak.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: feYdQ4xtiRIADX/byTG26A==
+SHA1-Digest: 9A+vgj/CKnq65AVdE58xvqDA13Q=
+
+Name: defaults/preferences/prefs.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: YnbCbylBChZacuOdqZt4YA==
+SHA1-Digest: y4ol5kDYgyMiEKGhZ7U+sVkezAs=
+

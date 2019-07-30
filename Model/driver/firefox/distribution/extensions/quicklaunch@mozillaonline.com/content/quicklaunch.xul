@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!DOCTYPE window SYSTEM "chrome://quicklaunch/locale/quicklaunch.dtd">
+<?xml-stylesheet href="chrome://quicklaunch/skin/quicklaunch.css" type="text/css"?>
+
+<overlay id="quicklaunch"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <panelmultiview id="PanelUI-multiView" mainViewId="PanelUI-mainView">
+    <panelview id="quicklaunch-PanelUI-View" flex="1">
+      <label value="&quicklaunch-label;" class="panel-subview-header"/>
+      <toolbarbutton label="&quicklaunch-notepad;" class="subviewbutton" image="chrome://quicklaunch/skin/image/notepad.png" oncommand="ceQuickLaunch.runProcInWinD('notepad.exe',['']);"/>
+      <toolbarbutton label="&quicklaunch-mspaint;" class="subviewbutton" image="chrome://quicklaunch/skin/image/mspaint.png" oncommand="ceQuickLaunch.runProcInWinD('system32\\mspaint.exe',['']);"/>
+      <toolbarbutton label="&quicklaunch-calc;" class="subviewbutton" image="chrome://quicklaunch/skin/image/calc.png" oncommand="ceQuickLaunch.runProcInWinD('system32\\calc.exe',['']);"/>
+      <toolbarbutton label="&quicklaunch-myComputer;" class="subviewbutton" image="chrome://quicklaunch/skin/image/myComputer.png"
+oncommand="ceQuickLaunch.runProcInWinD('explorer.exe',['::{20d04fe0-3aea-1069-a2d8-08002b30309d}']);"/>
+      <toolbarbutton id="quicklaunch-paintWebpage-button" label="&quicklaunch-paintWebpage;" class="subviewbutton" hidden="true" image="chrome://quicklaunch/skin/image/paintWebpage.png" oncommand="ceQuickLaunch.getScreenShot()"/>
+      <toolbarbutton label="&quicklaunch-switchProfile;" class="subviewbutton" image="chrome://quicklaunch/skin/image/switchProfile.png" oncommand="ceQuickLaunch.toProfileManager();"/>
+      <menuseparator/>
+      <menuseparator id="quicklaunch-separator-manage" hidden="true" />
+      <toolbarbutton label="&quicklaunch-manageQuickLaunch;" class="subviewbutton" image="chrome://quicklaunch/skin/image/customizmyql.png" oncommand="ceQuickLaunch.manageQuickLaunch();"/>
+    </panelview>
+  </panelmultiview>
+
+  <stringbundleset>
+    <stringbundle id="quicklaunchStrings" src="chrome://quicklaunch/locale/quicklaunch.properties"/>
+  </stringbundleset>
+
+  <script type="application/x-javascript" src="chrome://quicklaunch/content/quicklaunch.js" ></script>
+</overlay>

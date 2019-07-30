@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>share_all_cn@mozillaonline.com</em:id>
+    <em:type>2</em:type>
+    <em:name>分享工具条</em:name>
+    <em:version>0.20.1</em:version>
+    <em:creator>Mozilla Online</em:creator>
+    <em:contributor>Conchshell</em:contributor>
+    <em:homepageURL>http://www.firefox.com.cn/</em:homepageURL>
+    <em:description>分享到中国SNS</em:description>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- Firefox -->
+        <em:minVersion>29.0</em:minVersion>
+        <em:maxVersion>39.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    <em:iconURL>chrome://share_all_cn/skin/logo.png</em:iconURL>
+    <em:updateURL>http://g-fox.cn/chinaedition/addons/sharetool/update.rdf?version=%ITEM_VERSION%</em:updateURL>
+    <em:updateKey>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC94AHQLxkc4KnUwnZDmjRoY2SVPmu21YBtgede5DECPkFd4nBNwCooPq9P05tjx6NG0sCv3a/DjC7I+/vZfDiNzroaSNn5d5zhrdaEa4qkvoMDg8e+0sULofSUNBelbU12wAAbXdCFJAoUHUzOVjYXdsdo4GcLyLs4YmmaG8g3mwIDAQAB</em:updateKey>
+  </Description>
+</RDF>

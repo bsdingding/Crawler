@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay [
+  <!ENTITY % shareAllCNDtd SYSTEM "chrome://share_all_cn/locale/share_all_cn.dtd"> %shareAllCNDtd;
+]>
+<?xml-stylesheet href="chrome://share_all_cn/skin/default.css" type="text/css"?>
+
+
+<overlay id="shareAllCNOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <stringbundleset>
+        <stringbundle id="shareAllCNStrings" src="chrome://share_all_cn/locale/share_all_cn.properties" />
+    </stringbundleset>
+
+    <script type="application/x-javascript" src="chrome://share_all_cn/content/moa.js" />
+    <script type="application/x-javascript" src="chrome://share_all_cn/content/shareAllCNOverlay.js"></script>
+
+    // This is for the right click menu.
+    <popup id="contentAreaContextMenu">
+        <menu id="share_all_cn_menuitem_default" label="&share_all_cn.pop-t-title;" insertafter="context-sep-properties" class="menu-iconic share_all_cn-logo">
+            <menupopup>
+                <menuitem label="&share_all_cn.pop-menu-qq;"
+                    oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'qq', 'url', false, 'right');"
+                    tooltiptext="&share_all_cn.pop-menu-qq-tip;"
+                    class="shareChannel_qq menuitem-iconic share_all_cn_menuitem"/>
+                <menuitem label="&share_all_cn.pop-menu-renren;"
+                    oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'renren', 'url', false, 'right');"
+                    tooltiptext="&share_all_cn.pop-menu-renren-tip;"
+                    class="shareChannel_renren menuitem-iconic share_all_cn_menuitem"/>
+                <menuitem label="&share_all_cn.pop-menu-sina;"
+                    oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'sina', 'url', false, 'right');"
+                    tooltiptext="&share_all_cn.pop-menu-sina-tip;"
+                    class="shareChannel_sina menuitem-iconic share_all_cn_menuitem"/>
+                <menuitem label="&share_all_cn.pop-menu-tqq;"
+                    oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'tqq', 'url', false, 'right');"
+                    tooltiptext="&share_all_cn.pop-menu-tqq-tip;"
+                    class="shareChannel_tqq menuitem-iconic share_all_cn_menuitem"/>
+                <menuitem label="&share_all_cn.pop-menu-kaixin;"
+                    oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'kaixin', 'url', false, 'right');"
+                    tooltiptext="&share_all_cn.pop-menu-kaixin-tip;"
+                    class="shareChannel_kaixin menuitem-iconic share_all_cn_menuitem"/>
+                <menuitem label="&share_all_cn.pop-menu-douban;"
+                    oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'douban', 'url', false, 'right');"
+                    tooltiptext="&share_all_cn.pop-menu-douban-tip;"
+                    class="shareChannel_douban menuitem-iconic share_all_cn_menuitem"/>
+                <menuitem label="&share_all_cn.menu-email-title;"
+                    oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'mail', 'url', false, 'toolbar');"
+                    tooltiptext="&share_all_cn.menu-email-tip;"
+                    class="shareChannel_mail menuitem-iconic share_all_cn_menuitem"/>
+            </menupopup>
+        </menu>
+
+         <menu id="share_all_cn_pic_default" label="&share_all_cn.pop-pic-title;" insertafter="context-sep-properties" class="menu-iconic share_all_cn-logo">
+            <menupopup>
+                <menuitem label="&share_all_cn.pop-menu-qq;"
+                    oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'qq', 'pic', false, 'right');"
+                    tooltiptext="&share_all_cn.pop-menu-qq-tip;"
+                    class="shareChannel_qq menuitem-iconic share_all_cn_menuitem"/>
+                <menuitem label="&share_all_cn.pop-menu-renren;"
+                    oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'renren', 'pic', false, 'right');"
+                    tooltiptext="&share_all_cn.pop-menu-renren-tip;"
+                    class="shareChannel_renren menuitem-iconic share_all_cn_menuitem"/>
+                <menuitem label="&share_all_cn.pop-menu-sina;"
+                    oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'sina', 'pic', false, 'right');"
+                    tooltiptext="&share_all_cn.pop-menu-sina-tip;"
+                    class="shareChannel_sina menuitem-iconic share_all_cn_menuitem"/>
+                <menuitem label="&share_all_cn.pop-menu-tqq;"
+                    oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'tqq', 'pic', false, 'right');"
+                    tooltiptext="&share_all_cn.pop-menu-tqq-tip;"
+                    class="shareChannel_tqq menuitem-iconic share_all_cn_menuitem"/>
+                <menuitem label="&share_all_cn.pop-menu-kaixin;"
+                    oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'kaixin', 'pic', false, 'right');"
+                    tooltiptext="&share_all_cn.pop-menu-kaixin-tip;"
+                    class="shareChannel_kaixin menuitem-iconic share_all_cn_menuitem"/>
+                <menuitem label="&share_all_cn.pop-menu-douban;"
+                    oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'douban', 'pic', false, 'right');"
+                    tooltiptext="&share_all_cn.pop-menu-douban-tip;"
+                    class="shareChannel_douban menuitem-iconic share_all_cn_menuitem"/>
+                <menuitem label="&share_all_cn.pop-menu-mail;"
+                    oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'mail', 'pic', false, 'right');"
+                    tooltiptext="&share_all_cn.pop-menu-mail-tip;"
+                    class="shareChannel_mail menuitem-iconic share_all_cn_menuitem"/>
+            </menupopup>
+         </menu>
+    </popup>
+
+
+    // This is for the Tools menu.
+    <menupopup id="menu_ToolsPopup">
+        <menu id="share_all_cn-menu-tool" insertafter="devToolsSeparator" label="&share_all_cn.menu-title;" class="menu-iconic">
+            <menupopup>
+                <menuitem label="&share_all_cn.pop-menu-qq;"
+                    oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'qq', 'url', false, 'toolbar');"
+                    tooltiptext="&share_all_cn.pop-menu-qq-tip;"
+                    class="shareChannel_qq menuitem-iconic share_all_cn_menuitem"/>
+                <menuitem label="&share_all_cn.pop-menu-renren;"
+                    oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'renren', 'url', false, 'toolbar');"
+                    tooltiptext="&share_all_cn.pop-menu-renren-tip;"
+                    class="shareChannel_renren menuitem-iconic share_all_cn_menuitem"/>
+                <menuitem label="&share_all_cn.pop-menu-sina;"
+                    oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'sina', 'url', false, 'toolbar');"
+                    tooltiptext="&share_all_cn.pop-menu-sina-tip;"
+                    class="shareChannel_sina menuitem-iconic share_all_cn_menuitem"/>
+                <menuitem label="&share_all_cn.pop-menu-tqq;"
+                    oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'tqq', 'url', false, 'right');"
+                    tooltiptext="&share_all_cn.pop-menu-tqq-tip;"
+                    class="shareChannel_tqq menuitem-iconic share_all_cn_menuitem"/>
+                <menuitem label="&share_all_cn.pop-menu-kaixin;"
+                    oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'kaixin', 'url', false, 'toolbar');"
+                    tooltiptext="&share_all_cn.pop-menu-kaixin-tip;"
+                    class="shareChannel_kaixin menuitem-iconic share_all_cn_menuitem"/>
+                <menuitem label="&share_all_cn.pop-menu-douban;"
+                    oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'douban', 'url', false, 'toolbar');"
+                    tooltiptext="&share_all_cn.pop-menu-douban-tip;"
+                    class="shareChannel_douban menuitem-iconic share_all_cn_menuitem"/>
+                <menuitem label="&share_all_cn.menu-email-title;"
+                    oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'mail', 'url', false, 'toolbar');"
+                    tooltiptext="&share_all_cn.menu-email-tip;"
+                    class="shareChannel_mail menuitem-iconic share_all_cn_menuitem"/>
+            </menupopup>
+        </menu>
+    </menupopup>
+
+    <panelmultiview id="PanelUI-multiView" mainViewId="PanelUI-mainView">
+        <panelview id="PanelUI-share-all-cn-view" flex="1" class="PanelUI-subView">
+            <label value="&share_all_cn.pop-menu-tip;" class="panel-subview-header"/>
+            <toolbarbutton label="&share_all_cn.pop-menu-qq;"
+                oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'qq', 'url', true, 'navi');"
+                tooltiptext="&share_all_cn.pop-menu-qq-tip;"
+                class="shareChannel_qq menuitem-iconic share_all_cn_menuitem subviewbutton"/>
+            <toolbarbutton label="&share_all_cn.pop-menu-renren;"
+                oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'renren', 'url', true, 'navi');"
+                tooltiptext="&share_all_cn.pop-menu-renren-tip;"
+                class="shareChannel_renren menuitem-iconic share_all_cn_menuitem subviewbutton"/>
+            <toolbarbutton label="&share_all_cn.pop-menu-sina;"
+                oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'sina', 'url', true, 'navi');"
+                tooltiptext="&share_all_cn.pop-menu-sina-tip;"
+                class="shareChannel_sina menuitem-iconic share_all_cn_menuitem subviewbutton"/>
+            <toolbarbutton label="&share_all_cn.pop-menu-tqq;"
+                oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'tqq', 'url', true, 'navi');"
+                tooltiptext="&share_all_cn.pop-menu-tqq-tip;"
+                class="shareChannel_tqq menuitem-iconic share_all_cn_menuitem subviewbutton"/>
+            <toolbarbutton label="&share_all_cn.pop-menu-kaixin;"
+                oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'kaixin', 'url', true, 'navi');"
+                tooltiptext="&share_all_cn.pop-menu-kaixin-tip;"
+                class="shareChannel_kaixin menuitem-iconic share_all_cn_menuitem subviewbutton"/>
+            <toolbarbutton label="&share_all_cn.pop-menu-douban;"
+                oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'douban', 'url', true, 'navi');"
+                tooltiptext="&share_all_cn.pop-menu-douban-tip;"
+                class="shareChannel_douban menuitem-iconic share_all_cn_menuitem subviewbutton"/>
+            <toolbarbutton label="&share_all_cn.menu-email-title;"
+                oncommand="MOA.ShareAllCNTool.show_share_all_cn_channel(event, 'mail', 'url', true, 'navi');"
+                tooltiptext="&share_all_cn.menu-email-tip;"
+                class="shareChannel_mail menuitem-iconic share_all_cn_menuitem subviewbutton"/>
+        </panelview>
+    </panelmultiview>
+
+</overlay>

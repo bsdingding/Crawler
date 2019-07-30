@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<r:RDF xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+       xmlns="http://www.mozilla.org/2004/em-rdf#">
+
+  <r:Description about="urn:mozilla:install-manifest">
+    <id>tabtweak@mozillaonline.com</id>
+    <version>3.0.46</version>
+    <strictCompatibility>true</strictCompatibility>
+    <type>2</type>
+
+    <targetApplication>
+      <r:Description>
+        <id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</id>
+        <minVersion>35.0</minVersion>
+        <maxVersion>46.*</maxVersion>
+      </r:Description>
+    </targetApplication>
+
+    <updateURL>http://g-fox.cn/chinaedition/addons/tabtweak/update.rdf?version=%ITEM_VERSION%</updateURL>
+    <updateKey>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAvclCQ8nXMVB+UZpw2bLa7Qep6UO1YV6quUpw0RBDQgh5BMX6d4VaW/ZwMts7dFRA/7+yfjr3DTG036ldlRdnho6EztgDZKpLuU5tEORc9JfVspqb1Yw7ePRrKuc0vPyq1+2f1eEuXmikK3DGImd2lL9AoNYwHj7/+ERhntRQsQIDAQAB</updateKey>
+
+    <name>Tab Tweak</name>
+    <description>Tweak tab browsing by setting default behaviors.</description>
+    <creator>Mozilla Online Limited</creator>
+    <contributor>Rui You</contributor>
+    <homepageURL>http://firefox.com.cn</homepageURL>
+
+    <localized>
+      <r:Description>
+        <locale>zh-CN</locale>
+        <name>标签页优化</name>
+        <description>设置打开链接和关闭标签的默认行为，方便使用。</description>
+        <creator>Mozilla Online Limited</creator>
+        <contributor>Rui You</contributor>
+        <homepageURL>http://www.firefox.com.cn/</homepageURL>
+      </r:Description>
+    </localized>
+
+  </r:Description>
+</r:RDF>

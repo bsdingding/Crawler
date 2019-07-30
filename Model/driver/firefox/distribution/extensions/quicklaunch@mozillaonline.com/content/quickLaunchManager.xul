@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://quicklaunch/skin/quicklaunch.css" type="text/css"?>
+<?xml-stylesheet href="chrome://browser/skin/preferences/preferences.css" type="text/css"?>
+
+<!DOCTYPE dialog [
+<!ENTITY % quicklaunchDTD SYSTEM "chrome://quicklaunch/locale/quicklaunch.dtd">
+%quicklaunchDTD;
+]>
+
+<dialog id="quickLaunchManagerWindow"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        title="&quicklaunch-manageQuickLaunch;"
+        windowtype="mozilla:quickLaunchManager"
+        orient="vertical"
+        style="width: 42em;"
+        buttons="accept"
+        buttonlabelaccept="&accept.label;"
+        onload="StartUp();">
+
+  <script type="application/x-javascript" src="chrome://quicklaunch/content/quickLaunchManager.js"/>
+
+  <!-- <dialogheader class="header-large" id="header" title="&quickLaunchManager.title;" description="&quickLaunchManager.Description;"/> -->
+
+  <vbox id="quicklaunchbox">
+    <hbox id="quicklaunchbuttonbox">
+    <button id="buttonconfigaddonbar" orient="vertical" type="radio" checked="true"
+        group="categories" label="&quickLaunchEdit.configaddonbar;" image="chrome://quicklaunch/skin/image/add.png" oncommand="QC_selectTab(0);" />
+    <button id="buttoncustomizequicklaunch" orient="vertical" type="radio"
+        group="categories" label="&quickLaunchEdit.customizequicklaunch;" image="chrome://quicklaunch/skin/image/customize.png" oncommand="QC_selectTab(1);" />
+  </hbox>
+  </vbox>
+  <tabbox id="quicklaunch-tabbox" selectedIndex="0">
+    <tabs id="quicklaunch-tabs" hidden="true">
+    <tab label="&quickLaunchEdit.configaddonbar;" id="configaddonbar"/>
+    <tab label="&quickLaunchEdit.customizequicklaunch;" id="customizequicklaunch"/>
+  </tabs>
+  <tabpanels flex="1" id="qc-tabpanels" style="padding:0;" onclick="onClickQCPanel(event);">
+    <tabpanel id="qc-panel-configaddonbar" style="padding:0;"  flex="1">
+      <vbox id="quicklaunch-addonbar-manager-box" flex="1" style="max-height:140px; overflow-y:scroll;">
+        <label class="qc-label" value="&quickLaunchEdit.configaddonbar_label;"/>
+        <hbox  class="quicklaunch-add-hbox">
+          <checkbox id="default_notepad" label="&quicklaunch-notepad;" flex="1"  class="quicklaunch-checkbox" src="chrome://quicklaunch/skin/image/notepad.png"/>
+          <checkbox id="default_mspaint" label="&quicklaunch-mspaint;" flex="1"  class="quicklaunch-checkbox" src="chrome://quicklaunch/skin/image/mspaint.png"/>
+        </hbox>
+        <hbox class="quicklaunch-add-hbox">
+          <checkbox id="default_calc" label="&quicklaunch-calc;" flex="1" class="quicklaunch-checkbox" src="chrome://quicklaunch/skin/image/calc.png"/>
+          <checkbox id="default_myComputer" label="&quicklaunch-myComputer;" flex="1" class="quicklaunch-checkbox" src="chrome://quicklaunch/skin/image/myComputer.png"/>
+        </hbox>
+        <hbox class="quicklaunch-add-hbox">
+          <checkbox id="default_paintWebpage" label="&quicklaunch-paintWebpage;" flex="1" class="quicklaunch-checkbox" hidden="true" src="chrome://quicklaunch/skin/image/paintWebpage.png"/>
+          <checkbox id="default_switchProfile" label="&quicklaunch-switchProfile;" flex="1" class="quicklaunch-checkbox" src="chrome://quicklaunch/skin/image/switchProfile.png"/>
+        </hbox>
+      </vbox>
+    </tabpanel>
+    <tabpanel id="qc-panel-customizequicklaunch" flex="1">
+
+      <vbox>
+        <label class="qc-label" value="&quickLaunchEdit.customizequicklaunch_label;"/>
+        <hbox class="wizard-box" flex="1">
+        <!-- instructions -->
+        <vbox>
+         <hbox>
+          <vbox  id="managebuttons">
+            <button id="newButton" label="&newButton.label;" accesskey="&newButton.accesskey;" oncommand="addQuickLaunch();"/>
+            <button id="renameButton" label="&editButton.label;" accesskey="&editButton.accesskey;" oncommand="editQuickLaunch();"/>
+            <button id="deleteButton" label="&deleteButton.label;" accesskey="&deleteButton.accesskey;" oncommand="deleteQuickLaunch();"/>
+          </vbox>
+          <spacer flex="1"/>
+          </hbox>
+        </vbox>
+
+        <separator class="thin" orient="vertical"/>
+
+        <vbox flex="1">
+          <tree id="quicklaunch-tree" flex="1" style="height: 0px;" seltype="single"
+            hidecolumnpicker="true"
+            onselect="DoEnabling();">
+          <treecols>
+            <treecol label="&quickLaunchColoums.image;" flex="1"/>
+            <treecol label="&quickLaunchColoums.name;" flex="1"/>
+            <treecol label="&quickLaunchColoums.path;" flex="1"/>
+            <treecol label="&quickLaunchColoums.arguments;" flex="1"/>
+            <treecol label="id" hidden="true"/>
+          </treecols>
+          <treechildren id="quicklaunchs" ondblclick="HandleClickEvent(event);" datasources="profile:quicklaunch.sqlite" ref="*" querytype="storage" style="overflow-y:scroll;">
+            <template>
+            <query>
+              select distinct id,name,path,args from myquicklaunch
+            </query>
+            <action>
+              <treeitem uri="?">
+              <treerow>
+                <treecell src="moz-icon:file:///?path"/>
+                <treecell label="?name"/>
+                <treecell label="?path"/>
+                <treecell label="?args"/>
+                <treecell label="?id" hidden="true"/>
+              </treerow>
+              </treeitem>
+            </action>
+            </template>
+          </treechildren>
+          </tree>
+        </vbox>
+        </hbox>
+      </vbox>
+    </tabpanel>
+  </tabpanels>
+  </tabbox>
+
+</dialog>

@@ -1,0 +1,30 @@
+<!-- menu -->
+<!ENTITY share_all_cn.menu-title "Share Current Page to">
+<!ENTITY share_all_cn.pop-t-title "Share Current Page to">
+<!ENTITY share_all_cn.pop-pic-title "Share this Picture to">
+<!ENTITY share_all_cn.menu-email-title "Share this by Email">
+<!ENTITY share_all_cn.menu-email-tip "Share this URL or you selected content by Email">
+
+<!-- pop tip -->
+<!ENTITY share_all_cn.pop-menu-tip "Click to Share Current Page to">
+
+<!-- New dtd -->
+<!ENTITY share_all_cn.button-bar-tip "Share Tool">
+<!-- pop -->
+<!ENTITY share_all_cn.pop-menu-renren "Renren">
+<!ENTITY share_all_cn.pop-menu-sina "Sina Micro-Blogging">
+<!ENTITY share_all_cn.pop-menu-kaixin "Kaixin001">
+<!ENTITY share_all_cn.pop-menu-douban "Douban">
+<!ENTITY share_all_cn.pop-menu-qq "QZone">
+<!ENTITY share_all_cn.pop-menu-tqq "QQ Micro-Blogging">
+<!ENTITY share_all_cn.pop-menu-mail "Email">
+
+<!-- pop tip -->
+<!ENTITY share_all_cn.pop-menu-renren-tip "Share to Renren">
+<!ENTITY share_all_cn.pop-menu-sina-tip "Share to Sina Micro_Blogging">
+<!ENTITY share_all_cn.pop-menu-kaixin-tip "Share to Kaixin001">
+<!ENTITY share_all_cn.pop-menu-douban-tip "Share to Douban">
+<!ENTITY share_all_cn.pop-menu-qq-tip "Share to QZone">
+<!ENTITY share_all_cn.pop-menu-tqq-tip "Share to Tencent Micro_Blogging">
+<!ENTITY share_all_cn.pop-menu-mail-tip "Share to Email">
+

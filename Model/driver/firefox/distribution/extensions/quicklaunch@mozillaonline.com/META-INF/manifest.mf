@@ -1,0 +1,480 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: m/s+pNEbMnQwoM0293IyrA==
+SHA1-Digest: NcqcQ6IKZvXj7io8Ytl7Lk3r+kE=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /xyVSQv2AxictLDSgzKlEg==
+SHA1-Digest: fn7YdfwuaAYXIOS8UCARX/vi1VU=
+
+Name: content/editQuickLaunch.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mMVDs8KNU1Hadq5dRUmbag==
+SHA1-Digest: c5qdrEdn4DkJohe1lt3Q1uXtl+o=
+
+Name: content/editQuickLaunch.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nR13plJuIH1T/UsyFxTmeg==
+SHA1-Digest: BmEY//81g1qNn+kIpIM+9sdEPac=
+
+Name: content/profileSelection.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1jX/jvyByByTieEflFxlRw==
+SHA1-Digest: jxZkVdURGI1mwItP/fjUFOgwGAI=
+
+Name: content/profileSelection.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xT+PqviGKYjvWj1hllyjYg==
+SHA1-Digest: wW8wMgcAYuPKiCYuiZBoJiD/GOo=
+
+Name: content/quicklaunch-unix.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: l1DPLC75UFb1K6BIblKgpA==
+SHA1-Digest: gOkSv0EY7UG1T2Ptud0Mzej4TMI=
+
+Name: content/quicklaunch.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NkMiIDNCtV3686e2+n/DWQ==
+SHA1-Digest: 8jJ7o3M6U53hBQ46kXFUaNleRbI=
+
+Name: content/quicklaunch.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Jl0ZGC44UBWo2jEQmh36hw==
+SHA1-Digest: CaVPdt6oITH/gglMyxscD/Br84s=
+
+Name: content/quickLaunchManager.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Hd8OWDYE+P+U9+UHCLGvQg==
+SHA1-Digest: aUXA3hb4A2cvbRSy8Z6nBfpVzAE=
+
+Name: content/quickLaunchManager.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kLfqj0ht7l65J40LZoa7DQ==
+SHA1-Digest: OKzAAqFpq7f3Tjn7LaQCj/WFEFs=
+
+Name: defaults/preferences/prefs.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GKzm4CYW8t46s7fm5sUIBw==
+SHA1-Digest: nhudwEnkIxioQi4aHLO6CR4o23w=
+
+Name: locale/default/image/quicklaunch.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2dcx85xkZbQl8bmtqzaZ5Q==
+SHA1-Digest: kKpDsib96A+bpnT2r9UhCLQ0l4M=
+
+Name: locale/default/image/toolbarbutton-32.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8lwTtG+fNLdENELMy204fQ==
+SHA1-Digest: 9ZlRIvhG25Ah9Pls184wgUsGwFE=
+
+Name: locale/default/image/toolbarbutton-inverted.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Y77W9MxlYGSyL63qIyeMPg==
+SHA1-Digest: 8027P1WeRgFrRdfp8BOm6XeF1P4=
+
+Name: locale/default/image/toolbarbutton.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jSb8KCuLIA43gsp3F1eTyA==
+SHA1-Digest: e2tHMk4b36l7KOQl9zy1tP3nxQI=
+
+Name: locale/default/linux/image/quicklaunch.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2dcx85xkZbQl8bmtqzaZ5Q==
+SHA1-Digest: kKpDsib96A+bpnT2r9UhCLQ0l4M=
+
+Name: locale/default/linux/image/toolbarbutton-32.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2PWbw/OBgQUUXk3D73jkUA==
+SHA1-Digest: YiAnFyF5hpoMCWwQIsL4Y+0N/bU=
+
+Name: locale/default/linux/image/toolbarbutton-inverted.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Y77W9MxlYGSyL63qIyeMPg==
+SHA1-Digest: 8027P1WeRgFrRdfp8BOm6XeF1P4=
+
+Name: locale/default/linux/image/toolbarbutton.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: b968QM3cohd2ZOUgKUGgdw==
+SHA1-Digest: 6Oxiurcz0BwQ341XLoKxn66vVYo=
+
+Name: locale/default/mac/image/quicklaunch.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2dcx85xkZbQl8bmtqzaZ5Q==
+SHA1-Digest: kKpDsib96A+bpnT2r9UhCLQ0l4M=
+
+Name: locale/default/mac/image/toolbarbutton-32.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2PWbw/OBgQUUXk3D73jkUA==
+SHA1-Digest: YiAnFyF5hpoMCWwQIsL4Y+0N/bU=
+
+Name: locale/default/mac/image/toolbarbutton-32@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hpnE2UX0opOrNiEgHoH+Ig==
+SHA1-Digest: sKI5iAbmObE5qxnWyb1clnCkKb4=
+
+Name: locale/default/mac/image/toolbarbutton-active.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: b968QM3cohd2ZOUgKUGgdw==
+SHA1-Digest: 6Oxiurcz0BwQ341XLoKxn66vVYo=
+
+Name: locale/default/mac/image/toolbarbutton-active@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: b/lx5f5vuvXmAAoOav9QHg==
+SHA1-Digest: 85t/u/wJl689VhWqrQqa1VfAGOA=
+
+Name: locale/default/mac/image/toolbarbutton-inverted-active.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tLQugDjuuSWA0lyFRRWxFw==
+SHA1-Digest: qquIOWzy8NzbijSMAnC5v+tTLeo=
+
+Name: locale/default/mac/image/toolbarbutton-inverted-active@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5JjkDt4eHg8wAUQgQuZdGA==
+SHA1-Digest: xFUJnFA4eYPVME89+nhjpMXFqJI=
+
+Name: locale/default/mac/image/toolbarbutton-inverted.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: JIQ5fDcM93SvE9bVygrUnA==
+SHA1-Digest: g5bwp2VKA33dwSlqiLlhn8tZrZM=
+
+Name: locale/default/mac/image/toolbarbutton-inverted@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: MBDD8FFFtrObIcvlmXagRQ==
+SHA1-Digest: pMjVID8rAM3zgrk+ryLNAZAIB4A=
+
+Name: locale/default/mac/image/toolbarbutton.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: UboizfYEeFbwykMavyKjoA==
+SHA1-Digest: k9rPWUN08VSGTv93AL4IImTSaEc=
+
+Name: locale/default/mac/image/toolbarbutton@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fwdESRiLexflUzhzpaqyEA==
+SHA1-Digest: dqXTJpe/5IZNLCrhQtpYilQsDHg=
+
+Name: locale/default/mac/yosemite/image/quicklaunch.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2dcx85xkZbQl8bmtqzaZ5Q==
+SHA1-Digest: kKpDsib96A+bpnT2r9UhCLQ0l4M=
+
+Name: locale/default/mac/yosemite/image/toolbarbutton-32.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: vxzHN6dLFw429+TwXsxIeg==
+SHA1-Digest: GWYCtCzr50aTJK166IY7XfCSMAU=
+
+Name: locale/default/mac/yosemite/image/toolbarbutton-32@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Dlg2PyobX8atmbfEKFbGZQ==
+SHA1-Digest: QGQHKOWIESdRT8+almoh0PfZbOk=
+
+Name: locale/default/mac/yosemite/image/toolbarbutton-active.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: JGfFSiDpkUrXvRdrygzlRg==
+SHA1-Digest: uD7tpyEUjqrOVtZg4Fp+NAr+9Vs=
+
+Name: locale/default/mac/yosemite/image/toolbarbutton-active@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: vutHK8j8Vs5ORmwoohhnnA==
+SHA1-Digest: XrcXqp0QQlwhUUIT/IS91RRqWJw=
+
+Name: locale/default/mac/yosemite/image/toolbarbutton-inverted-active.pn
+ g
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RCaz2aSqwJEuUWLVmpLrRQ==
+SHA1-Digest: vckLQfgIgdpnkZKkLJyn9B1fH14=
+
+Name: locale/default/mac/yosemite/image/toolbarbutton-inverted-active@2x
+ .png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Y1THGQsr2ZpQDTHPFHRYRg==
+SHA1-Digest: 3udnSNu9DsyaQLWbYAjkzSJvDwo=
+
+Name: locale/default/mac/yosemite/image/toolbarbutton-inverted.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: DxpAufGhg92JwuZ83Y7rsg==
+SHA1-Digest: uAG77x5i5CWuGIK/CkV+muwv/94=
+
+Name: locale/default/mac/yosemite/image/toolbarbutton-inverted@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: q6L5UREYuA7JfgFuR/XEgA==
+SHA1-Digest: jL9QTDgEW+rsmy04NKotLktJtOk=
+
+Name: locale/default/mac/yosemite/image/toolbarbutton.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: PzjozM0jFvckco5H9L075w==
+SHA1-Digest: je2bQjdTASYzmRQZXDA3f1T6lZ0=
+
+Name: locale/default/mac/yosemite/image/toolbarbutton@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +31n+V5UFDoNAJ+a+i6ZPw==
+SHA1-Digest: GacrRkrc0a39yMeIB4OuesdvEao=
+
+Name: locale/en-US/profileSelection.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: G/CiCK6Zmy/twmQnxq8DXQ==
+SHA1-Digest: zmVWewZcluvSq9Q4Jf/i6iz7zes=
+
+Name: locale/en-US/profileSelection.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: f01LZB+522QB7gmcvdZLVw==
+SHA1-Digest: sjTU3kuDcWC3k62AYxlZZkWwgvU=
+
+Name: locale/en-US/quicklaunch.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QZkDG65eMlDWSj4msqSDzQ==
+SHA1-Digest: kIv+9q6+7RYCmq3zf6D+ENb8IUw=
+
+Name: locale/en-US/quicklaunch.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: O+MUXbZ4TLS6YM4Wro1grA==
+SHA1-Digest: Ap23Q5Y2Dbx6DRqy15dS5Beg1YM=
+
+Name: locale/zh-CN/profileSelection.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ozrxLvzpUjdGzTRFtqdaZg==
+SHA1-Digest: oED16wIP0VouOP4PbFSSFA4LqCk=
+
+Name: locale/zh-CN/profileSelection.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: AWmffDQU28OpX5vLsaGaYg==
+SHA1-Digest: KhRdx1dtRuw4dI/4Y6E53Q6fNYg=
+
+Name: locale/zh-CN/quicklaunch.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: i4rJaWslvS+6J1RSZNg08A==
+SHA1-Digest: xZufUkBnUjqoUDQUv766cqmxPVY=
+
+Name: locale/zh-CN/quicklaunch.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Ff+Eb5+6IS8ju5sffL8XCg==
+SHA1-Digest: A4rwmXQFWGiFczgL11xfmOatwTY=
+
+Name: locale/zh-CN/image/quicklaunch.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mB30JpK0a3M0StKyoMniSA==
+SHA1-Digest: HqlBlPyhuks3E9ivFglDWOvOZKM=
+
+Name: locale/zh-CN/image/toolbarbutton-32.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RsLMAAo8kZHduELtdGK94g==
+SHA1-Digest: oq+aOd+ZXRsCCpp69lUCyLtmSY4=
+
+Name: locale/zh-CN/image/toolbarbutton-inverted.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: YukOKyXvsefHlsZdabCPTg==
+SHA1-Digest: pzGo7pTex9AJRJ0TLSZK4iU21rI=
+
+Name: locale/zh-CN/image/toolbarbutton.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xyXZT4X83fCr3Mh8jJYDtQ==
+SHA1-Digest: F3raH76Emy90L8GUx4gOsPlSJqs=
+
+Name: locale/zh-CN/linux/image/quicklaunch.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: J157KN5o3aSE7Etc7VMWJg==
+SHA1-Digest: C49rI54TOL2GqqTqJXtAm8PAcsY=
+
+Name: locale/zh-CN/linux/image/toolbarbutton-32.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RsLMAAo8kZHduELtdGK94g==
+SHA1-Digest: oq+aOd+ZXRsCCpp69lUCyLtmSY4=
+
+Name: locale/zh-CN/linux/image/toolbarbutton-inverted.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: YukOKyXvsefHlsZdabCPTg==
+SHA1-Digest: pzGo7pTex9AJRJ0TLSZK4iU21rI=
+
+Name: locale/zh-CN/linux/image/toolbarbutton.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xyXZT4X83fCr3Mh8jJYDtQ==
+SHA1-Digest: F3raH76Emy90L8GUx4gOsPlSJqs=
+
+Name: locale/zh-CN/mac/image/quicklaunch.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +HziwVvDy4WfPzv8rdGjXA==
+SHA1-Digest: JkihR5cOQRDe38uSKgaLELPJ5CI=
+
+Name: locale/zh-CN/mac/image/toolbarbutton-32.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: iW89GplQS+av8jSZiiFBVw==
+SHA1-Digest: Q9DoCJzSItJ9Z7ufUxYewHWagfA=
+
+Name: locale/zh-CN/mac/image/toolbarbutton-32@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gbwgkHG6KFHfoVrnfc8n0Q==
+SHA1-Digest: eTHoZZfw2idVTSvZ0rR2ifSNXxs=
+
+Name: locale/zh-CN/mac/image/toolbarbutton-active.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2bqbSb2WrsiwiDkGg1Gi/g==
+SHA1-Digest: EgWdb13od1vBZ0wVL3UhrpVyaWg=
+
+Name: locale/zh-CN/mac/image/toolbarbutton-active@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: reDNmjrnqUri78cx2jjdDw==
+SHA1-Digest: hxPhgrhlvcTo2cwmxx3Hp/ja36g=
+
+Name: locale/zh-CN/mac/image/toolbarbutton-inverted-active.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: WOZRbsogrwtJILrF5mLKgA==
+SHA1-Digest: AiIMEjyfT2ZAii2/Wj87TmmHMAA=
+
+Name: locale/zh-CN/mac/image/toolbarbutton-inverted-active@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: i0wTY9otHRivfctAnX/u3w==
+SHA1-Digest: fUJOh9jgvKBtzZGQLUrUVhsLjrw=
+
+Name: locale/zh-CN/mac/image/toolbarbutton-inverted.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RGAw9GVegzzG4oTXEqyc2Q==
+SHA1-Digest: iGLWxF5YQot3vyp0DZnTw7SMJcw=
+
+Name: locale/zh-CN/mac/image/toolbarbutton-inverted@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: UcgHd7fMuQ58FEwkzq0uFQ==
+SHA1-Digest: wZ/iNG/xljfaLL/OWCk0kokMhAM=
+
+Name: locale/zh-CN/mac/image/toolbarbutton.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: obeVTmDRph6i5Gz6MkTpMw==
+SHA1-Digest: e6rc61uz5gmy9mQTkc/GozgTyo0=
+
+Name: locale/zh-CN/mac/image/toolbarbutton@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SWUFNLHDRFtYhrtE8azNgw==
+SHA1-Digest: YZ40RVVoaHVOLzBa/o7P+kSWu9E=
+
+Name: locale/zh-CN/mac/yosemite/image/quicklaunch.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +HziwVvDy4WfPzv8rdGjXA==
+SHA1-Digest: JkihR5cOQRDe38uSKgaLELPJ5CI=
+
+Name: locale/zh-CN/mac/yosemite/image/toolbarbutton-32.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: pnZPw8LJSH/NixOh61DApQ==
+SHA1-Digest: EumbHDMzhAL6zOUKXu/Kk72H3P4=
+
+Name: locale/zh-CN/mac/yosemite/image/toolbarbutton-32@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xWnWtCS0qJjx5InEyJo3Yw==
+SHA1-Digest: TwC5L5dU+03T0ISZkBVh0ZzBxg8=
+
+Name: locale/zh-CN/mac/yosemite/image/toolbarbutton-active.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Ea2G+sEHQbrSHuw0Ma0bqw==
+SHA1-Digest: 5U42TskG7/L/MXRI0s1LPSvIF90=
+
+Name: locale/zh-CN/mac/yosemite/image/toolbarbutton-active@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jLbs8Z5ckTe2rhIrJclW+w==
+SHA1-Digest: sw1X+JBPCC4Apb/MBqcxOLUA9RU=
+
+Name: locale/zh-CN/mac/yosemite/image/toolbarbutton-inverted-active.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2x5TcCElNzeBbc+Ic7u3hA==
+SHA1-Digest: kFOZj+8KCbwcP4WThkWVLYTQOSU=
+
+Name: locale/zh-CN/mac/yosemite/image/toolbarbutton-inverted-active@2x.p
+ ng
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: MuSWWCfEEv+DZXf/KWsD5A==
+SHA1-Digest: mIVomBGc0oidGvd7AMGdc7bMPsc=
+
+Name: locale/zh-CN/mac/yosemite/image/toolbarbutton-inverted.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: YECzf2k4sTwdHP31O98GQQ==
+SHA1-Digest: Mr0ca8vVSELBIhCcuHJO8EmNp/w=
+
+Name: locale/zh-CN/mac/yosemite/image/toolbarbutton-inverted@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3Rcw2L6SHUmbPcgX94uu1w==
+SHA1-Digest: E+UuoOMVNeATCR9gK/CVV6wRuZI=
+
+Name: locale/zh-CN/mac/yosemite/image/toolbarbutton.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: POvdCVETmZcbkMp0uXCPpg==
+SHA1-Digest: TNuc36cMHy6awe2PwsvQlB3kEZ8=
+
+Name: locale/zh-CN/mac/yosemite/image/toolbarbutton@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: YjK8ucs00yWedFBGv8H7ag==
+SHA1-Digest: TQFcduIlyvU9BX2LU1BhqTL5kuM=
+
+Name: locale/zh-TW/profileSelection.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xATsU/6NtjvsNG+bvRYUHw==
+SHA1-Digest: eYfmZMC3hlvw/g61ryHZmg5VwOI=
+
+Name: locale/zh-TW/profileSelection.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xGScwee1JM8kbj6TRTW/jQ==
+SHA1-Digest: z9IvWaZeKe93bONmjIBzYhlTegM=
+
+Name: locale/zh-TW/quicklaunch.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ekQOzjAFO618a5x3dxPuww==
+SHA1-Digest: uSfd3VFNyG9lWSaUK3pfgjcD8sY=
+
+Name: locale/zh-TW/quicklaunch.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xX5JZ2QQMjy67QIMa2koZA==
+SHA1-Digest: 549YH1q8zNXrk65ndOhG5aoaA3w=
+
+Name: modules/quicklaunch.jsm
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kBWOO9Tvz20eyd6fUySArQ==
+SHA1-Digest: hABqdFdaqw1zO9HkwEybl9BOx+o=
+
+Name: skin/quicklaunch.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: K+Uu/3+M5mOMRy8DuLLgkA==
+SHA1-Digest: E1xwwXyGihS56iaye0tfBwNMQ4I=
+
+Name: skin/image/add.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bGBx6ilOSyly17T/8HmWRQ==
+SHA1-Digest: Qncfh7nw6uhSRIZV8Ucdi99KtTs=
+
+Name: skin/image/calc.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: LjdP5SI/9jHi2O++81Jxwg==
+SHA1-Digest: P+L7yr0BmvZS03DS2JqdrZ0lVHA=
+
+Name: skin/image/customize.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3b7R6jqT2e9c9uKBh6CFdA==
+SHA1-Digest: mqvfcXujZB2buN96AZAO81bftSY=
+
+Name: skin/image/customizmyql.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jWRhqMEpBuZk75R4JOoUZw==
+SHA1-Digest: sufoiKJNYaT7ZwcSCTp8XFH+fnQ=
+
+Name: skin/image/mspaint.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: lxFGorXMECGDCeiJ9hdhOA==
+SHA1-Digest: xZzl+kJUN03TVKG+DDQ+uE/S9mE=
+
+Name: skin/image/myComputer.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mJeuWEOSrqUEltnmo/HxAA==
+SHA1-Digest: Od4IuhfaYD+imxYcx51Hxq0pH1U=
+
+Name: skin/image/notepad.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Dma8QVv2kbSMD0hUlc4Daw==
+SHA1-Digest: VvrCcdceE6H2ZLHY59TtDKG93aE=
+
+Name: skin/image/paintWebpage.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tPnGz7cZI9w9+1xxu9lVug==
+SHA1-Digest: 7Ho7MR9ENXm7yznpjKDuBcmVGMI=
+
+Name: skin/image/switchProfile.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KTsVUYj78ytW6lhbmPDcKg==
+SHA1-Digest: N0+/n0I/1RKbN0NKEOSZ26GuPWk=
+
