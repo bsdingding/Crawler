@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.chrome.options import Options
-import time, pickle, os
+import time, pickle, os, json
 import libs.sysUtils as util
 
 import sys
@@ -16,14 +16,17 @@ print "Initialize"
 #dcap['phantomjs.page.settings.userAgent'] = ('Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36')  #根据需要设置具体的浏览器信息
 #driver = webdriver.PhantomJS(desired_capabilities=dcap)  #封装浏览器信息
 
-def initChromeDriver():
+def initChromeDriver(type):
     chrome_options = Options()
-    chrome_options.add_argument('--no-sandbox')
-    chrome_options.add_argument('--disable-gpu')
-    chrome_options.add_argument('--hide-scrollbars')
-    chrome_options.add_argument('blink-settings=imagesEnabled=false')
-    chrome_options.add_argument('--headless')
-    driver = webdriver.Chrome(executable_path='./driver/chromedriver.exe', options=chrome_options)
+    # chrome_options.add_argument('--no-sandbox')
+    # chrome_options.add_argument('--disable-gpu')
+    # chrome_options.add_argument('--hide-scrollbars')
+    # chrome_options.add_argument('blink-settings=imagesEnabled=false')
+    # chrome_options.add_argument('--headless')
+    if type:
+        driver = webdriver.Chrome(executable_path='./driver/chromedriver.exe', options=chrome_options)
+    else:
+        driver = webdriver.Chrome(executable_path='./driver/chrome/chromedriver', options=chrome_options)
     return driver
 
 
@@ -65,7 +68,7 @@ def retry_get(driver, url, retry=3):
 
 def reload(driver):
     print "Reloading..."
-    retry_get(driver, "http://aibjx.org/plugin.php?id=levgift:levgift")
+    retry_get(driver, "http://aishxs.org/plugin.php?id=levgift:levgift")
     driver.set_page_load_timeout(5)
     time.sleep(2)
 
@@ -82,24 +85,24 @@ def parseTime(timeStr):
     return res
 
 
-url = "http://aibjx.org/plugin.php?id=levgift:levgift"
-checkinUrl = "http://aibjx.org/plugin.php?id=dsu_paulsign:sign"
+url = "http://aishxs.org/plugin.php?id=levgift:levgift"
+checkinUrl = "http://aishxs.org/plugin.php?id=dsu_paulsign:sign"
 
-def dumpCookie():
-    driver.get("http://aibjx.org/plugin.php?id=levgift:levgift")
+winCookie = 'Cookie/cookie.pickle'
+macCookie = 'Cookie/maccookie.pickle'
+
+def dumpCookie(driver, type):
     while True:
         print "please login"
+        reload(driver)
         time.sleep(30)
         print "dumping"
-        while driver.current_url == url:
+        if driver.current_url == url:
             tmpCookies = driver.get_cookies()
-            cookies = {}
-            for item in tmpCookies:
-                cookies[item['name']] = item['value']
-            filename = open('Cookie/cookie.pickle', 'wb')
-            pickle.dump(cookies, filename)
-            filename.close()
-            return cookies
+            filename = winCookie if type else macCookie
+            with open(filename, 'w') as f:
+                f.write(json.dumps(tmpCookies))
+            return
 
 
 def checkin(driver):
@@ -113,9 +116,11 @@ def checkin(driver):
     time.sleep(10)
 
 
-def readCookie():
-    filename = open('Cookie/cookie.pickle', 'rb')
-    return pickle.load(filename)
+def readCookie(type):
+    filename = open(winCookie if type else macCookie, 'rb')
+    line = filename.readline()
+    ret = json.loads(line)
+    return ret
 
 
 def clickGift(driver):
@@ -143,17 +148,27 @@ def clickGift(driver):
          
 
 def loopwork(cookies, driver):
-    driver.get("http://aibjx.org/plugin.php?id=levgift:levgift")
-    driver.save_screenshot("screenshots/login.png")
+    reload(driver)
     #import pdb; pdb.set_trace()
+    driver.delete_all_cookies()
+    time.sleep(2)
     for cookie in cookies:
-        driver.add_cookie({
-            "domain":"aibjx.org",
-            "name":cookie,
-            "value":cookies[cookie],
-            "path":'/',
-            "expires": "Fri, 01 Jan 2038 00:00:00 GMT"
-        })
+        # driver.add_cookie({
+        #     "domain":"aibjx.org",
+        #     "name":cookie,
+        #     "value":cookies[cookie],
+        #     "path":'/',
+        #     "expires": "Fri, 01 Jan 2038 00:00:00 GMT"
+        # })
+        if 'expiry' in cookie:
+            del cookie['expiry']    
+        # if 'secure' in cookie:
+        #     del cookie['secure']
+        # if 'httpOnly' in cookie:
+        #     del cookie['httpOnly']
+        # cookie['expires'] = None
+
+        driver.add_cookie(cookie)
     reload(driver)
     #driver.maximize_window()
     driver.save_screenshot("screenShots/Login1.png")
@@ -173,10 +188,10 @@ def loopwork(cookies, driver):
     driver.close()
     driver.quit()
 
-def chromeWork():
-    driver = initChromeDriver()
-    #dumpCookie()
-    cookies = readCookie()
+def chromeWork(type):
+    driver = initChromeDriver(type)
+    dumpCookie(driver, type)
+    cookies = readCookie(type)
     loopwork(cookies, driver)
 
 
@@ -190,7 +205,10 @@ if __name__ == "__main__":
     # initFirefoxDriver()
 
     # phantomJSWork()
-    chromeWork()
+    type = True
+    if len(sys.argv) > 1 and sys.argv[1] == 'mac':
+    	type = False
+    chromeWork(type)
 
     
 
